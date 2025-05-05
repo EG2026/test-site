@@ -2,6 +2,7 @@ baseURL: "https://eg2026.github.io/"
 languageCode: en-us
 title: EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026
 theme: minimalConference
+publishDir: "docs"
 languages:
   en:
     languageName: English
