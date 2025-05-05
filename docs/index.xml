@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026</title>
+    <link>https://eg2026.github.io/</link>
+    <description>Recent content in Index on EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://eg2026.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attend</title>
+      <link>https://eg2026.github.io/attend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/attend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://eg2026.github.io/awards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/awards/</guid>
+      <description>Following its traditions, SGP 2023 will attribute three best paper awards, a software award recognising the authors of an open-source software that has greatly influenced the field, and a test of time award.
+Best Paper Award &amp;ldquo;Poisson Manifold Reconstruction - Beyond Co-dimension One&amp;rdquo;
+Maximilian Kohlbrenner, Singchun Lee, Marc Alexa, Misha Kazhdan
+Best Paper Award: Runner up &amp;ldquo;BPM: Blended Piecewise Möbius Maps&amp;rdquo;
+Shir Rorberg, Amir Vaxman, and Mirela Ben-Chen
+Best Paper Award: Honorable mention &amp;ldquo;Singularity-Free Frame Fields for Line Drawing Vectorization&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Organization</title>
+      <link>https://eg2026.github.io/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Previous Symposia</title>
+      <link>https://eg2026.github.io/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/past/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>https://eg2026.github.io/program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submit</title>
+      <link>https://eg2026.github.io/submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eg2026.github.io/submit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

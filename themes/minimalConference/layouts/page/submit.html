@@ -1,0 +1,70 @@
+{{ define "main" }}
+<!-- <div id=program-banner>
+    <nav id=program-nav class="nav justify-content-center">
+    <a class=nav-link href=#guidelines>Guidelines</a>
+    <a class=nav-link href=#call_for_papers>Call for Papers</a>
+    <a class=nav-link href=#call_for_short_papers>Call for Short Papers</a>
+    <a class=nav-link href=#call_for_stars>Call for Stars</a>
+    <a class=nav-link href=#call_for_tutorials>Call for Tutorials</a>
+    <a class=nav-link href=#call_for_posters>Call for Posters</a>
+    <a class=nav-link href=#call_for_education_papers>Call for Education Papers</a>
+    <a class=nav-link href=#doctoral_consortium>Doctoral Consortium</a>
+    
+    </nav>
+  </div> -->
+
+<!-- {{- partial "important-dates.html" . -}}
+<div id=simple-static></div>
+{{ .Content }} -->
+
+<h2 id=important_dates>{{T "important_dates" }}</h2>
+
+<table class=fixed-table>
+  {{ range .Site.Params.importantDates }}
+  <tr>
+    <td class=important-date-name>
+      {{T .id }}
+    </td>
+    <td class=important-date-date>
+      {{ .date }}
+    </td>
+  </tr>
+  {{ end }}
+</table>
+
+<h2 id=guidelines>{{T "guidelines" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_papers>{{T "call_for_papers" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_short_papers>{{T "call_for_short_papers" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_stars>{{T "call_for_stars" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_tutorials>{{T "call_for_tutorials" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_posters>{{T "call_for_posters" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=call_for_education_papers>{{T "call_for_education_papers" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=doctoral_consortium>{{T "doctoral_consortium" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+
+
+
+{{ end }}

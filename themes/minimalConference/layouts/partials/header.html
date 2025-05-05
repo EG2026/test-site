@@ -1,0 +1,80 @@
+
+{{/*  <div id="banner-outer">
+  <div id="banner-container">
+    <a href="{{ .Site.BaseURL | relLangURL }}">
+      <img id="banner" src="/images/banner_.png" alt="banner">
+    </a>
+  </div>
+</div>  */}}
+
+<div id="banner-outer">
+  <div id="banner-container" 
+       style="position: relative; display: inline-block;">
+    <a href="{{ .Site.BaseURL | relLangURL }}">
+      <!-- banner: full‑width, height auto -->
+      <img id="banner" 
+           src="/images/banner_path.svg" 
+           alt="banner" 
+           style="display: block; width: 100%; height: auto;">
+      <!-- gif: absolute, same height as banner -->
+      <img id="banner-gif" 
+           src="/images/ausgabe.gif" 
+           alt="overlay animation"
+           style="
+             position: absolute;
+             top: -5%; 
+             left: 7%; /* adjust as needed */
+             height: 100%;    /* match banner’s height */
+             width: auto;     /* auto width to preserve aspect ratio */
+             z-index: 1; 
+             pointer-events: none;
+           ">
+    </a>
+  </div>
+</div>
+
+<!-- layouts/partials/navbar.html -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <!-- Home-button on left -->
+    <a class="nav-home-button" href="{{ .Site.BaseURL | relLangURL }}">
+      <img src="/images/logo_path2.svg" alt="Home">
+    </a>
+
+    <!-- Center the toggler (mobile) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Center the navbar items -->
+    <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+      <ul class="navbar-nav justify-content-center  mb-2 mb-lg-0 fs-4">
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="dropdown-{{ .Identifier }}" role="button" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-toggle="collapse">
+                {{ T .Name }}
+              </a>
+              <!-- Add dropdown-menu-center class -->
+              <ul class="dropdown-menu bg-black border-0 dropdown-menu-center fs-5" aria-labelledby="dropdown-{{ .Identifier }}">
+                {{ range .Children }}
+                  <a class="dropdown-item text-white" href="{{ .URL | relLangURL }}">
+                    {{ T .Name }}
+                  </a>
+                {{ end }}
+              </ul>
+            </li>
+          {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" 
+                  href="{{ .URL | relLangURL }}">
+                 {{ T .Name }}
+               </a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>
+

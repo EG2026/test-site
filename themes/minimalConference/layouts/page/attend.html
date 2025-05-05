@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<!-- <div id=program-banner>
+    <nav id=program-nav class="nav justify-content-center">
+    <a class=nav-link href=#registration>Registration</a>
+    <a class=nav-link href=#presenting>Presenting</a>
+    <a class=nav-link href=#code_of_conduct>Code of Conduct</a>
+    <a class=nav-link href=#accommodation>Accommodation</a>
+    </nav>
+  </div> -->
+
+
+<h2 id=registration>{{T "registration" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=presenting>{{T "presenting" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=code_of_conduct>{{T "code_of_conduct" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=accommodation>{{T "accommodation" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+
+
+
+{{ end }}
