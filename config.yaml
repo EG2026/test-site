@@ -209,7 +209,7 @@ menu:
       url: /attend/#accommodation
       weight: 4
 Params:
-  sponsorContact: "contact@geometryprocessing.org"
+  sponsorContact: "eg2026@cs.rwth-aachen.de"
   submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2023"
   events: 
     - id: "conference_location"
