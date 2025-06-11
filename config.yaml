@@ -235,7 +235,7 @@ Params:
    - id: conference
      date: "TBA"
   chairs:
-  - id: conference_co_chairs
+  - id: conference_chairs
     items: 
       - name: "Silvia Biasotti"
         email: "silvia@ge.imati.cnr.it"
@@ -243,22 +243,22 @@ Params:
       - name: "Lin Gao"
         email: "gaolin@ict.ac.cn"
         affiliation: "Chinese Academy of Sciences"
-  - id: technical_program_co_chairs
-    items: 
-      - name: "Pooran Memari"
-        email: ""
-        affiliation: "CNRS-LIX, Ecole Polytechnique"
-      - name: " Justin Solomon"
-        email: ""
-        affiliation: "MIT"
-  - id: graduate_school_co_chairs
-    items: 
-      - name: "Rana Hanocka"
-        email: ""
-        affiliation: "University of Chicago"
-      - name: "Nico Pietroni"
-        email: ""
-        affiliation: "University of Technology Sydney"
+  # - id: technical_program_co_chairs
+  #   items: 
+  #     - name: "Pooran Memari"
+  #       email: ""
+  #       affiliation: "CNRS-LIX, Ecole Polytechnique"
+  #     - name: " Justin Solomon"
+  #       email: ""
+  #       affiliation: "MIT"
+  # - id: graduate_school_co_chairs
+  #   items: 
+  #     - name: "Rana Hanocka"
+  #       email: ""
+  #       affiliation: "University of Chicago"
+  #     - name: "Nico Pietroni"
+  #       email: ""
+  #       affiliation: "University of Technology Sydney"
 
 #  - id: awards_chair
 #    items: 

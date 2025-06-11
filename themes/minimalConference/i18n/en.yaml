@@ -40,14 +40,26 @@
   translation: "stay tuned for talk information"
 - id: organizational_team
   translation: "Local Organization"
-- id: conference_co_chairs
-  translation: "Conference co‑Chairs"
-- id: technical_program_co_chairs
-  translation: "Technical Program co‑Chairs"
-- id: graduate_school_co_chairs
-  translation: "Graduate School co‑Chairs"
-- id: awards_chair
-  translation: "Software & Dataset Awards Chair"
+- id: conference_chairs
+  translation: "Conference Chairs"
+- id: full_paper_chairs
+  translation: "Full Papers Chairs"
+- id: short_paper_chairs
+  translation: "Short Papers Chairs"
+- id: tutorials_chairs
+  translation: "Tutorials Chairs"
+- id: star_chairs
+  translation: "STAR Chairs"
+- id: posters_chairs
+  translation: "Posters Chairs"
+- id: education_papers_chairs
+  translation: "Education Papers Chairs"
+- id: doctoral_cons_chairs
+  translation: "Doctoral Consortium Chairs"
+- id: diversity_chairs
+  translation: "Diversity Chairs"
+- id: sustainability_chairs
+  translation: "Sustainability Chairs"
 - id: technical_papers_committee
   translation: "Technical Papers Committee"
 - id: awards_committee

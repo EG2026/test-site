@@ -22,19 +22,6 @@
 <div id=simple-static></div>
 {{ .Content }}
 
-<h2 id=full_papers_ipc>{{"Full Papers International Program Committee" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
-<h2 id=short_papers_ipc>{{"Short Papers International Program Committee" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
-<h2 id=education_papers_ipc>{{"Education Papers International Program Committee" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
-<!--
 <table class=chairs-table>
   {{range .Site.Params.chairs}}
   <tr>
@@ -54,7 +41,22 @@
   </tr>
   {{end}}
 </table>
--->
+
+
+<h2 id=full_papers_ipc>{{"Full Papers International Program Committee" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=short_papers_ipc>{{"Short Papers International Program Committee" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+<h2 id=education_papers_ipc>{{"Education Papers International Program Committee" }}</h2>
+<div id=simple-static></div>
+{{ .Content }}
+
+
+
 
 
 {{/*  {{ $flags := .Site.Params.flagEmojis }}
