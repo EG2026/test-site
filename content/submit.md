@@ -30,11 +30,11 @@ A submission to the Eurographics Full Papers program should describe the origina
 
 Authors are expected to cite, discuss differences and novelty, and compare results, if applicable, with respect to relevant existing publications, provided they have been published in a peer-reviewed venue. This also applies to patents, which also undergo a professional reviewing process.
 
-#### What about non-peer-reviewed publications, such as technical reports or papers posted on arXiv?
+##### *What about non-peer-reviewed publications, such as technical reports or papers posted on arXiv?*
 
 With the rapid progress of search engines and the increased perusal of arXiv papers by the scientific community, asking authors to thoroughly compare their work to these non-peer-reviewed pre-publications imposes an unreasonable burden — a seemingly relevant report that is incomplete in its disclosure or validation might appear online shortly before the deadline. Although peer-reviewed publications are certainly not immune to these shortcomings, they have, at least, been judged sufficiently complete and valid by a group of peers. Consequently, authors are not required to discuss and compare their work with recent non-peer-reviewed prepublications (arXiv, technical reports, theses, etc.), although they must properly cite those that inspired them (see “Plagiarism” above). Nevertheless, we encourage authors to mention all related works they are aware of as good academic practice dictates. Note that with new works posted on arXiv on a daily basis, it is increasingly likely that reviewers might point out similarities between the submitted work and online reports that have been missed by the authors. In this case, authors of conditionally accepted papers should be prepared to cite these pre-publications in their final revision as concurrent work, without the burden of having to detail how their work compares to or differs from these non-peer-reviewed pre-publications.
 
-#### What about citing own prior art?
+##### *What about citing own prior art?*
 
 When authors cite previous work that they have authored (including any work where there is overlap between its author list and the author list of the present submission), the citation should be in the third person to preserve anonymity. There are, however, situations where such prior work should not be cited. This is the case if these prior works correspond to: (a) non-peer-reviewed prepublications of the submission (e.g., arXiv) with largely similar content (see also section on “arXiv Policy” below), or (b) prepublications with largely similar content (e.g., a poster that is not considered a publication). For (a), see section on “arXiv Policy” below. For (b), they should NOT be cited in the submission, as this would identify the authors. In both cases, these prepublications must be included in a text file and uploaded in the appropriate field of the submission form, as “Prepublications”. This information will be visible to IPC members but not to reviewers. 
 
@@ -42,7 +42,7 @@ When authors cite previous work that they have authored (including any work wher
 
 As authors, putting a submission on a repository like arXiv is allowed, either before submission or during the review cycle. There is no penalty for publishing a submission as a prepublication. However, if there are largely overlapping prepublications of the same authors that are available online at the time of submission (arXiv), earlier or largely similar versions of the submission should not be cited in the submission because this would identify the authors. This is consistent with the submission guidelines at SIGGRAPH and CVPR/ECCV/ICCV. After submission, the authors should try to preserve the anonymity of the submission. Specifically, the following list clarifies what is allowed and what not.
 
-#### Allowed:
+##### *Allowed:*
 
 arXiv postings before and after the submission deadline. Do not state that the submission is under review for Eurographics.
 
@@ -58,7 +58,7 @@ It is ok to list submissions on author’s webpages as long as they are not refe
 
 It is ok to publicize the work via authors’ social media as long as they are not referred to as Eurographics submissions.
 
-#### Not allowed:
+##### *Not allowed:*
 
 It is not allowed to list submissions on institutional websites irrespective of the presentation form.
 

@@ -5,9 +5,6 @@ Program Chairs
 ---  */}}
 
 <h2 id=programm_chairs>{{T "programm_chairs" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
 <table class=chairs-table>
   {{range .Site.Params.chairs}}
   <tr>
@@ -34,9 +31,6 @@ International Programme Committee
 ---  */}}
 
 <h2 id=ipc>{{"International Programme Committee" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
 
 <table class=chairs-table>
   {{range .Site.Params.ipc}}
@@ -50,14 +44,12 @@ International Programme Committee
     <ul>
     {{range .items}}
     <li>
-      <span class=line>{{ .name }}</a>, </span>
-      <span class=line>{{.affiliation}}</span>
-      
+      <span class=line>{{ .name }}{{ if .affiliation }}, {{ end }}</span>
+      {{- if .affiliation }}<span class=line>{{ .affiliation }}</span>{{ end }}
     </li>
     {{end}}
     </ul>
   </td>
-
 
   </tr>
 

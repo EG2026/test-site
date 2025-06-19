@@ -127,11 +127,11 @@ menu:
       url: /program/#full_programm
       weight: 1
 
-    # - identifier: keynotes
-    #   parent: program
-    #   name: keynotes
-    #   url: /program/#keynotes
-    #   weight: 2
+    - identifier: keynotes
+      parent: program
+      name: keynotes
+      url: /program/#keynotes
+      weight: 2
 
     # - identifier: workshops
     #   parent: program
@@ -292,7 +292,7 @@ Params:
     - id: ipc_advisory_board
       items:
         - name: "Adrien Bousseau"
-          affiliation: "INRIA"
+          affiliation: "Inria"
 
         - name: "Angela Dai"
           affiliation: "TU Munich"
