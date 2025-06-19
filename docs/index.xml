@@ -2,51 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026</title>
-    <link>http://localhost:1313/</link>
+    <link>https://eg2026.github.io/</link>
     <description>Recent content in Index on EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://eg2026.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attend</title>
-      <link>http://localhost:1313/attend/</link>
+      <link>https://eg2026.github.io/attend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/attend/</guid>
+      <guid>https://eg2026.github.io/attend/</guid>
       <description></description>
     </item>
     <item>
       <title>Awards</title>
-      <link>http://localhost:1313/awards/</link>
+      <link>https://eg2026.github.io/awards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/awards/</guid>
+      <guid>https://eg2026.github.io/awards/</guid>
       <description>Following its traditions, SGP 2023 will attribute three best paper awards, a software award recognising the authors of an open-source software that has greatly influenced the field, and a test of time award.&#xA;Best Paper Award &amp;ldquo;Poisson Manifold Reconstruction - Beyond Co-dimension One&amp;rdquo;&#xA;Maximilian Kohlbrenner, Singchun Lee, Marc Alexa, Misha Kazhdan&#xA;Best Paper Award: Runner up &amp;ldquo;BPM: Blended Piecewise Möbius Maps&amp;rdquo;&#xA;Shir Rorberg, Amir Vaxman, and Mirela Ben-Chen&#xA;Best Paper Award: Honorable mention &amp;ldquo;Singularity-Free Frame Fields for Line Drawing Vectorization&amp;rdquo;</description>
     </item>
     <item>
-      <title>Call for Full Papers</title>
-      <link>http://localhost:1313/call_for_full_papers/</link>
+      <title>Call for Education Papers</title>
+      <link>https://eg2026.github.io/call_for_education_papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/call_for_full_papers/</guid>
+      <guid>https://eg2026.github.io/call_for_education_papers/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Call for Full Papers</title>
+      <link>https://eg2026.github.io/call_for_full_papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/call_for_full_papers/</guid>
       <description>For its 47th edition, the EUROGRAPHICS 2026 Full Papers Program will showcase innovative research in Computer Graphics and related areas. We invite submissions of new ideas and encourage all forms of research creativity and originality, with the ambition of setting the standard in the field and stimulating future trends. We encourage submissions from all areas related to Computer Graphics, including but not limited to: rendering, modeling, animation, generative AI, deep learning for graphics, simulation, geometry processing, image/video editing, fabrication, 3D printing, computational imaging, display technologies, graphics hardware, human-computer interaction, visualization, virtual and augmented reality.</description>
     </item>
     <item>
-      <title>Organization</title>
-      <link>http://localhost:1313/organization/</link>
+      <title>Call for Posters</title>
+      <link>https://eg2026.github.io/call_for_posters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/organization/</guid>
+      <guid>https://eg2026.github.io/call_for_posters/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Call for Short Papers</title>
+      <link>https://eg2026.github.io/call_for_short_papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/call_for_short_papers/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Call for Stars</title>
+      <link>https://eg2026.github.io/call_for_stars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/call_for_stars/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Call for Tutorials</title>
+      <link>https://eg2026.github.io/call_for_tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/call_for_tutorials/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Doctoral Consortium</title>
+      <link>https://eg2026.github.io/doctoral_consortium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/doctoral_consortium/</guid>
+      <description>TBA </description>
+    </item>
+    <item>
+      <title>Organization</title>
+      <link>https://eg2026.github.io/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/organization/</guid>
       <description></description>
     </item>
     <item>
       <title>Program</title>
-      <link>http://localhost:1313/program/</link>
+      <link>https://eg2026.github.io/program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/program/</guid>
+      <guid>https://eg2026.github.io/program/</guid>
       <description></description>
     </item>
     <item>
       <title>Submit</title>
-      <link>http://localhost:1313/submit/</link>
+      <link>https://eg2026.github.io/submit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submit/</guid>
+      <guid>https://eg2026.github.io/submit/</guid>
       <description> </description>
     </item>
   </channel>

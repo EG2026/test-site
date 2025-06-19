@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/attend/</loc>
+    <loc>https://eg2026.github.io/attend/</loc>
   </url><url>
-    <loc>http://localhost:1313/awards/</loc>
+    <loc>https://eg2026.github.io/awards/</loc>
   </url><url>
-    <loc>http://localhost:1313/call_for_full_papers/</loc>
+    <loc>https://eg2026.github.io/call_for_education_papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://eg2026.github.io/call_for_full_papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://eg2026.github.io/call_for_posters/</loc>
   </url><url>
-    <loc>http://localhost:1313/organization/</loc>
+    <loc>https://eg2026.github.io/call_for_short_papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/program/</loc>
+    <loc>https://eg2026.github.io/call_for_stars/</loc>
   </url><url>
-    <loc>http://localhost:1313/submit/</loc>
+    <loc>https://eg2026.github.io/call_for_tutorials/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://eg2026.github.io/categories/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/doctoral_consortium/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/organization/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/program/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/submit/</loc>
+  </url><url>
+    <loc>https://eg2026.github.io/tags/</loc>
   </url>
 </urlset>

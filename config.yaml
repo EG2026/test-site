@@ -76,37 +76,37 @@ menu:
     - identifier: call_for_short_papers
       parent: submit
       name: call_for_short_papers
-      url: /submit/#call_for_short_papers
+      url: /call_for_short_papers/#call_for_short_papers
       weight: 4
 
     - identifier: call_for_stars
       parent: submit
       name: call_for_stars
-      url: /submit/#call_for_stars
+      url: /call_for_stars/#call_for_stars
       weight: 5
 
     - identifier: call_for_tutorials
       parent: submit
       name: call_for_tutorials
-      url: /submit/#call_for_tutorials
+      url: /call_for_tutorials/#call_for_tutorials
       weight: 6
 
     - identifier: call_for_posters
       parent: submit
       name: call_for_posters
-      url: /submit/#call_for_posters
+      url: /call_for_posters/#call_for_posters
       weight: 7
 
     - identifier: call_for_education_papers
       parent: submit
       name: call_for_education_papers
-      url: /submit/#call_for_education_papers
+      url: /call_for_education_papers/#call_for_education_papers
       weight: 8
 
     - identifier: doctoral_consortium
       parent: submit
       name: doctoral_consortium
-      url: /submit/#doctoral_consortium
+      url: /doctoral_consortium/#doctoral_consortium
       weight: 9
 
 
