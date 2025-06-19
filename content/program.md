@@ -5,19 +5,34 @@ type: "page"
 menu: program
 
 
-speakers: 
-  - name: Theodore Kim
-    url: https://seas.yale.edu/faculty-research/faculty-directory/theodore-kim
-    affiliation: Yale University 
-    title: The Character of Computer Animation Research
-    abstract: Like all areas of research, physics-based simulation for computer animation encapsulates a core set of foundational problems. These include the simulation of smoke, water, and solids such as muscles and skin, efficient ways of controlling these simulations, and methods for dealing with their geometry. But where did these formulations come from, and how universal are they? In this talk, I will discuss their historical provenance. Far from being universal, they are highly tailored to analog-era industrial techniques from Walt Disney Animation Studios and Industrial Light and Magic. How does this then shape our perceptions, and what counts as valid research problems and solutions? I will not have many answers, but I hope to raise a few questions.
-    portrait: /images/TKim.jpg
-  - name: Alexander Bobenko
-    url: https://page.math.tu-berlin.de/~bobenko/
-    affiliation: Technical University Berlin
-    title: "Structure preserving discretizations: Towards generalizations of conformal maps and circle patterns"
-    abstract: "Structure-preserving discretization in the field of geometry is the paradigm of discrete differential geometry. Here, of course, deciding which of the structures are to be taken into account is a nontrivial problem. In some aspects, the discrete theory turns out to be even richer than its smooth counterpart. It focuses on developing constructive methods, which allow one to prove natural existence and uniqueness results, as well as the corresponding convergence statements. The well-established theory of discrete conformal maps and circle patterns has already found numerous applications in geometry processing. We present their generalizations beyond the conformal limit: decorated discrete conformal maps and ring patterns, which share the corresponding existence and uniqueness statements. The theory and construction methods are based on variational principles. We also briefly explain how structure preserving discretizations recently helped to answer the long-standing question whether a surface in three-space is uniquely determined by its metric and curvatures (Bonnet problem)."
-    portrait: /images/ABobenko.png    
+# speakers: 
+#   - name: George Drettakis
+#     url: https://www-sop.inria.fr/members/George.Drettakis/
+#     affiliation: Inria Université Côte d’Azur
+#     title: 
+#     abstract: 
+#     portrait: /images/george_grettakis_.png
+
+#   - name: Jaakko Lehtinen
+#     url: https://users.aalto.fi/~lehtinj7/
+#     affiliation: Aalto University / NVIDIA Research
+#     title: 
+#     abstract: 
+#     portrait: /images/jaakko_lehtinen.png
+
+#   - name: Lourdes Agapito
+#     url: https://profiles.ucl.ac.uk/40331-lourdes-de-agapito-vicente
+#     affiliation: University College London / Synthesia Technologies
+#     title: 
+#     abstract: 
+#     portrait: /images/lourdes_agapito.png    
+
+#   - name: Bernd Bickel
+#     url: https://berndbickel.com/about-me
+#     affiliation: ETH Zurich
+#     title: 
+#     abstract: 
+#     portrait: /images/bernd_bickel.png    
 
 graduateSchoolCourses:
 - title: Functional Correspondence from Discrete Geometry to Learning

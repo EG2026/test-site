@@ -19,11 +19,25 @@
 - id: previous_sgps
   translation: "Previous SGPs"
 - id: abstract_submission
-  translation: "(Recommended) Abstract submission"
+  translation: "Abstract and submission form deadline"
 - id: paper_submission
-  translation: "Paper submission"
-- id: notification_of_acceptance
-  translation: "Notification of acceptance"
+  translation: "Full paper deadline"
+- id: reviews_released
+  translation: "Reviews released"
+- id: rebuttal_due
+  translation: "Rebuttal due"
+- id: notification_for_conditional_acceptance_or_rejection
+  translation: "Notification for conditional acceptance or rejection"
+- id: revised_version_due
+  translation: "Revised version due"
+- id: final_notification
+  translation: "Final notification"
+- id: camera-ready_version
+  translation: "Camera-ready version"
+- id: registration_for_at_least_one_paper_author
+  translation: "Registration for at least one paper author"
+- id: conference_begins
+  translation: "Conference begins"
 - id: revised_version_due
   translation: "Revised version due"
 - id: camera_ready_due
@@ -86,12 +100,14 @@
   translation: "Program Chairs"
 - id: guidelines
   translation: "Guidelines"
-- id: full_papers_ipc
-  translation: "Full Papers IPC"
-- id: short_papers_ipc
-  translation: "Short Papers IPC"
-- id: education_papers_ipc
-  translation: "Education Papers IPC"
+- id: ipc
+  translation: "IPC"
+- id: ipc_advisory_board
+  translation: "IPC Advisory Board"
+- id: sorting_committee
+  translation: "Sorting Committee"
+- id: ipc_members
+  translation: "IPC Members"
 - id: call_for_papers
   translation: "Call for Papers"
 - id: call_for_short_papers

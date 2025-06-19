@@ -15,34 +15,65 @@
 </div>
 -->
 
-<div id=simple-static></div>
-{{/*  some random text  */}}
-{{ .Content }}
-
-<h2>Keynote Speakers</h2>
-{{ .Content }}
+{{/*  <div id=simple-static></div>
+{{ .Content }}  */}}
 
 
-<!-- 
-<div id=simple-static>
-<p id=about>
-{{ .Site.Params.about | markdownify  }} 
-</p>
-{{ .Content }}
--->
 
 
- <!-- 
-  <h2>Video</h2>
-<div class=video-container>
-<iframe src="https://www.youtube.com/embed/zIvxeT2saLw?controls=0&autoplay=1&loop=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscpoe; picture-in-picture; fullscreen" allowfullscreen></iframe>
+
+ <h2>Keynote Speakers</h2>
+{{range .Params.speakers }}
+<div class=keynote-container>
+    <img src={{ .portrait }} class=keynote-portrait>
+    <div class=keynote-text-container>
+    <h3>
+      <span class=keynote-name><a href={{.url}}>{{ .name }}</a></span>
+    <br>
+    <span class=keynote-affiliation>{{ .affiliation}}</span>
+    </h3>
+    <p>
+    {{ if (not (isset . "title")) | or (eq .title "") }}
+    ({{T "stay_tuned_for_talk_information"}})
+    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
+    {{ else }}
+    <h3><span class=keynote-title>{{.title}}</span></h3>
+    <p>
+      {{ .abstract }}
+    </p>
+    {{ end }}
+    </p>
+    {{ if (isset . "youtube") }}
+      <iframe class=keynote-embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {{end}}
+    <p class=keynote-bio>
+    {{ if (not (isset . "bio")) | or (eq .bio "") }}
+    <!-- just keep it empty -->
+    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
+    {{ else }}
+    {{.bio}}
+    {{ end }}
+    </p>
+    </div>
 </div>
--->
+{{ end }}
 
 
- <!-- 
-{{- partial "important-dates.html" . -}}
--->
+
+<h2 id=important_dates>{{T "important_dates" }}</h2>
+
+<table class=fixed-table>
+  {{ range .Site.Params.importantDates }}
+  <tr>
+    <td class=important-date-name>
+      {{T .id }}
+    </td>
+    <td class=important-date-date>
+      {{ .date }}
+    </td>
+  </tr>
+  {{ end }}
+</table>
 
 
 <h2>{{T "sponsors" }}</h2>
@@ -86,14 +117,15 @@
 </div>
 -->
 
-<h2>Important Dates</h2>
-{{ .Content }}
+
 
  
+<h4>
 <p class=single-line>
 <a href="mailto:{{ .Site.Params.sponsorContact}}">{{T "contact_us" }}</a> 
 {{.Site.Params.sponsorPlea }}
 </p>
+</h4>
 
 
 {{ end }}

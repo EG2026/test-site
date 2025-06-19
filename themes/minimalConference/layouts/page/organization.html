@@ -1,28 +1,14 @@
 {{ define "main" }}
-{{/*  <div id=simple-static>
-{{ .Content }}  */}}
 
-<!-- <div id=program-banner>
-  <nav id=program-nav class="nav justify-content-center">
-    <a class=nav-link href=#organizational_team>Local Organization</a>
-  <a class=nav-link href=#programm_chairs>Program Chairs</a>
-  <a class=nav-link href=#full_papers_ipc>Full Papers IPC</a>
-  <a class=nav-link href=#short_papers_ipc>Short Papers IPC</a>
-  <a class=nav-link href=#education_papers_ipc>Education Papers IPC</a>
-  
-  </nav>
-</div> -->
-
-
-<h2 id=organizational_team>{{T "organizational_team" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
+{{/*  ---
+Program Chairs
+---  */}}
 
 <h2 id=programm_chairs>{{T "programm_chairs" }}</h2>
 <div id=simple-static></div>
 {{ .Content }}
 
-{{/*  <table class=chairs-table>
+<table class=chairs-table>
   {{range .Site.Params.chairs}}
   <tr>
   <td class=chairs-name>
@@ -40,21 +26,74 @@
   </td>
   </tr>
   {{end}}
-</table>  */}}
+</table>
 
 
-<h2 id=full_papers_ipc>{{"Full Papers International Program Committee" }}</h2>
+{{/*  ---
+International Programme Committee
+---  */}}
+
+<h2 id=ipc>{{"International Programme Committee" }}</h2>
 <div id=simple-static></div>
 {{ .Content }}
 
-<h2 id=short_papers_ipc>{{"Short Papers International Program Committee" }}</h2>
+
+<table class=chairs-table>
+  {{range .Site.Params.ipc}}
+  <tr>
+    
+  <td class=chairs-name>
+    {{T .id }}
+  </td>
+
+  <td class=chairs-items>
+    <ul>
+    {{range .items}}
+    <li>
+      <span class=line>{{ .name }}</a>, </span>
+      <span class=line>{{.affiliation}}</span>
+      
+    </li>
+    {{end}}
+    </ul>
+  </td>
+
+
+  </tr>
+
+  {{end}}
+</table>
+
+
+{{/*  ---
+Local Organization
+---  */}}
+
+
+
+<h2 id=organizational_team>{{T "organizational_team" }}</h2>
 <div id=simple-static></div>
 {{ .Content }}
 
-<h2 id=education_papers_ipc>{{"Education Papers International Program Committee" }}</h2>
-<div id=simple-static></div>
-{{ .Content }}
-
+<table class=chairs-table>
+  {{range .Site.Params.local_organization}}
+  <tr>
+  <td class=chairs-name>
+    {{T .id }}
+  </td>
+  <td class=chairs-items>
+    <ul>
+    {{range .items}}
+    <li>
+      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a>,</span>
+      <span class=line>{{.affiliation}}</span>
+    </li>
+    {{end}}
+    </ul>
+  </td>
+  </tr>
+  {{end}}
+</table>
 
 
 

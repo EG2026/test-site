@@ -127,57 +127,65 @@ menu:
       url: /program/#full_programm
       weight: 1
 
-    - identifier: keynotes
-      parent: program
-      name: keynotes
-      url: /program/#keynotes
-      weight: 2
+    # - identifier: keynotes
+    #   parent: program
+    #   name: keynotes
+    #   url: /program/#keynotes
+    #   weight: 2
 
-    - identifier: workshops
-      parent: program
-      name: workshops
-      url: /program/#workshops
-      weight: 3
+    # - identifier: workshops
+    #   parent: program
+    #   name: workshops
+    #   url: /program/#workshops
+    #   weight: 3
 
-    - identifier: industrial_keynote_speakers
-      parent: program
-      name: industrial_keynote_speakers
-      url: /program/#industrial_keynote_speakers
-      weight: 4
+    # - identifier: industrial_keynote_speakers
+    #   parent: program
+    #   name: industrial_keynote_speakers
+    #   url: /program/#industrial_keynote_speakers
+    #   weight: 4
     # ───────────────────────────────────────────────────────────────────────────
 
     - name: organization
       weight: 30
 
-    - identifier: organizational_team
-      parent: organization
-      name: organizational_team
-      url: /organization/#organizational_team
-      weight: 1
-
     - identifier: programm_chairs
       parent: organization
       name: programm_chairs
       url: /organization/#programm_chairs
+      weight: 1
+
+    - identifier: ipc
+      parent: organization
+      name: ipc
+      url: /organization/#ipc
       weight: 2
 
-    - identifier: full_papers_ipc
+    - identifier: organizational_team
       parent: organization
-      name: full_papers_ipc
-      url: /organization/#full_papers_ipc
+      name: organizational_team
+      url: /organization/#organizational_team
       weight: 3
 
-    - identifier: short_papers_ipc
-      parent: organization
-      name: short_papers_ipc
-      url: /organization/#short_papers_ipc
-      weight: 4
+    # - identifier: ipc_advisory_board
+    #   parent: organization
+    #   name: ipc_advisory_board
+    #   url: /organization/#ipc_advisory_board
+    #   weight: 2
 
-    - identifier: education_papers_ipc
-      parent: organization
-      name: education_papers_ipc
-      url: /organization/#education_papers_ipc
-      weight: 5
+    # - identifier: sorting_committee
+    #   parent: organization
+    #   name: sorting_committee
+    #   url: /organization/#sorting_committee
+    #   weight: 3
+
+    # - identifier: ipc_members
+    #   parent: organization
+    #   name: ipc_members
+    #   url: /organization/#ipc_members
+    #   weight: 4
+
+
 
 
 
@@ -223,48 +231,95 @@ Params:
      #items:
        #- name: "Geometry Factory"
          #logo: "images/geometryfactory-logo.png"
+
   importantDates:    
    - id: abstract_submission
-     date: "TBA"
+     date: "Sep. 22, 2025"
    - id: paper_submission
-     date: "TBA"
-   - id: notification_of_acceptance
-     date: "TBA"
+     date: "Sep. 26, 2025"
+   - id: reviews_released
+     date: "Nov. 19, 2025"
+   - id: rebuttal_due
+     date: "Nov. 26, 2025"
+   - id: notification_for_conditional_acceptance_or_rejection
+     date: "Dec. 15, 2025"
    - id: revised_version_due
-     date: "TBA"
-   - id: conference
-     date: "TBA"
+     date: "Jan. 23, 2026"
+   - id: final_notification
+     date: "Feb. 6, 2026"
+   - id: camera-ready_version
+     date: "Feb. 20, 2026"
+   - id: registration_for_at_least_one_paper_author
+     date: "Apr.  3, 2026"
+   - id: conference_begins
+     date: "May 4, 2026"
+
+
   chairs:
   - id: conference_chairs
     items: 
-      - name: "Silvia Biasotti"
-        email: "silvia@ge.imati.cnr.it"
-        affiliation: "IMATI"
-      - name: "Lin Gao"
-        email: "gaolin@ict.ac.cn"
-        affiliation: "Chinese Academy of Sciences"
-  # - id: technical_program_co_chairs
-  #   items: 
-  #     - name: "Pooran Memari"
-  #       email: ""
-  #       affiliation: "CNRS-LIX, Ecole Polytechnique"
-  #     - name: " Justin Solomon"
-  #       email: ""
-  #       affiliation: "MIT"
-  # - id: graduate_school_co_chairs
-  #   items: 
-  #     - name: "Rana Hanocka"
-  #       email: ""
-  #       affiliation: "University of Chicago"
-  #     - name: "Nico Pietroni"
-  #       email: ""
-  #       affiliation: "University of Technology Sydney"
+      - name: "Leif Kobbelt"
+        email: "sekretariati8@informatik.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Shi-Min Hu"
+        email: "shimin@tsinghua.edu.cn"
+        affiliation: "Tsinghua University"
 
-#  - id: awards_chair
-#    items: 
-#      - name: "Marc Alexa"
-#        email: "firstname.lastname at tu-berlin.de"
-#        affiliation: "Technische Universität Berlin"
+  - id: full_paper_chairs
+    items: 
+      - name: "Belen Masia"
+        email: "bmasia@unizar.es"
+        affiliation: "Universidad de Zaragoza"
+      - name: "Justus Thies"
+        email: "justus.thies@tu-darmstadt.de"
+        affiliation: "Technical University of Darmstadt"
+ 
+  
+  local_organization:
+  - id: organizational_team
+    items: 
+      - name: "Alisa Rozdestvenskyte"
+        email: "alisa@cs.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Isaak Lim"
+        email: "isaak.lim@cs.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Yanjiang He"
+        email: "he@cs.rwth-aachen.des"
+        affiliation: "RWTH Aachen University"
+
+  ipc:
+    - id: ipc_advisory_board
+      items:
+        - name: "Adrien Bousseau"
+          affiliation: "INRIA"
+
+        - name: "Angela Dai"
+          affiliation: "TU Munich"
+
+        - name: "Diego Gutierrez"
+          affiliation: "Universidad de Zaragoza"
+
+        - name: "Holly Rushmeier"
+          affiliation: "Yale University"
+
+        - name: "Olga Sorkine-Hornung"
+          affiliation: "ETH Zurich"
+
+        - name: "Michael Wimmer"
+          affiliation: "TU Wien"
+
+    - id : sorting_committee
+      items:
+        - name: "TBA"
+          affiliation: ""
+
+    - id: ipc_members
+      items:
+        - name: "TBA"
+          affiliation: ""
+
+  
   committees:
     - id: technical_papers_committee
       # members:
