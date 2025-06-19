@@ -109,7 +109,7 @@
 - id: ipc_members
   translation: "IPC Members"
 - id: call_for_papers
-  translation: "Call for Papers"
+  translation: "Call for Full Papers"
 - id: call_for_short_papers
   translation: "Call for Short Papers"
 - id: call_for_stars
