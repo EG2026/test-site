@@ -108,7 +108,7 @@
 body
 {
   background-color: var(--planet-background);
-  color: var(--dark-blue);
+  color: var(--turquoise);
   min-width: 400px;
   font-size: 12pt;
   /* max-width: 2000px; */

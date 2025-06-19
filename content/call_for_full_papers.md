@@ -1,14 +1,35 @@
 ---
-title: "Submit"
-layout: "submit"
-type: "page"
-menu: submit
+title: "Call for Full Papers"
+type:  "page"               # or whatever your theme expects
+layout: "call_for_full_papers"  # this tells Hugo to use layouts/page/call_for_full_papers.html
 ---
 
 
-<!-- For its 47th edition, the **EUROGRAPHICS 2026** Full Papers Program will showcase innovative research in Computer Graphics and related areas. We invite submissions of new ideas and encourage all forms of research creativity and originality, with the ambition of setting the standard in the field and stimulating future trends. We encourage submissions from all areas related to Computer Graphics, including but not limited to: rendering, modeling, animation, generative AI, deep learning for graphics, simulation, geometry processing, image/video editing, fabrication, 3D printing, computational imaging, display technologies, graphics hardware, human-computer interaction, visualization, virtual and augmented reality.
+For its 47th edition, the **EUROGRAPHICS 2026** Full Papers Program will showcase innovative research in Computer Graphics and related areas. We invite submissions of new ideas and encourage all forms of research creativity and originality, with the ambition of setting the standard in the field and stimulating future trends. We encourage submissions from all areas related to Computer Graphics, including but not limited to: rendering, modeling, animation, generative AI, deep learning for graphics, simulation, geometry processing, image/video editing, fabrication, 3D printing, computational imaging, display technologies, graphics hardware, human-computer interaction, visualization, virtual and augmented reality.
 
 In addition to novel methodologies and algorithms for Computer Graphics, EUROGRAPHICS welcomes submissions introducing new datasets and benchmarks, or documenting original perceptual and experimental studies that advance the field of Computer Graphics.
+
+### Timeline
+
+All following deadlines are at 23:59 UTC:
+
+    [Mon] Sep. 22, 2025: Abstract and submission form deadline
+
+    [Fri] Sep. 26, 2025: Full paper deadline
+
+    [Wed] Nov. 19, 2025: Reviews released
+
+    [Wed] Nov. 26, 2025: Rebuttal due
+
+    [Mon] Dec. 15, 2025: Notification for conditional acceptance or rejection 
+
+    [Fri] Jan. 23, 2026: Revised version due
+
+    [Fri] Feb.  6, 2026: Final notification
+
+    [Fri] Feb. 20, 2026: Camera-ready version due
+
+    [Fri] Apr.  3, 2026: Registration deadline for at least one paper author	
 
 ### Reviewing Process & Upon Acceptance
 All submissions will undergo a double-blind two-step review process. Accepted full papers will be presented at the Eurographics 2026 conference and published in a special issue of the Eurographics journal [Computer Graphics Forum](https://onlinelibrary.wiley.com/journal/14678659) as well as the EG Digital Library. [Gold Open Access](https://www.eg.org/wp/eurographics-publications/guidelines/#licensing) will be available with an extra publication fee that includes open access fee and support through the EG Digital Library.
@@ -43,29 +64,20 @@ As authors, putting a submission on a repository like arXiv is allowed, either b
 
 ##### *Allowed:*
 
-arXiv postings before and after the submission deadline. Do not state that the submission is under review for Eurographics.
-
-YouTube video on personal account. Do not show submission id or anything that could relate to a Eurographics submission. Authors can link the videos from the arXiv page or personal web page.
-
-Code release on personal code repositories (e.g., github). Authors can link the code repository from the arXiv or personal web page.
-
-It is ok to list submissions in job applications and in interviews as long as they are not referred to as Eurographics submissions.
-
-It is ok to present the work in non-public venues in particular job talks as long as they are not referred to as Eurographics submissions.
-
-It is ok to list submissions on author’s webpages as long as they are not referred to as Eurographics submissions.
-
-It is ok to publicize the work via authors’ social media as long as they are not referred to as Eurographics submissions.
+1. arXiv postings before and after the submission deadline. Do not state that the submission is under review for Eurographics.
+2. YouTube video on personal account. Do not show submission id or anything that could relate to a Eurographics submission. Authors can link the videos from the arXiv page or personal web page.
+3. Code release on personal code repositories (e.g., github). Authors can link the code repository from the arXiv or personal web page.
+4. It is ok to list submissions in job applications and in interviews as long as they are not referred to as Eurographics submissions.
+5. It is ok to present the work in non-public venues in particular job talks as long as they are not referred to as Eurographics submissions.
+6. It is ok to list submissions on author’s webpages as long as they are not referred to as Eurographics submissions.
+7. It is ok to publicize the work via authors’ social media as long as they are not referred to as Eurographics submissions.
 
 ##### *Not allowed:*
 
-It is not allowed to list submissions on institutional websites irrespective of the presentation form.
-
-No publicity via university or company PR teams regardless of whether authors or institutions are kept anonymous – this includes any postings or dissemination via institutional or promoted social media accounts.
-
-No media interviews regardless of mainstream media or tech-focused outlets (small-scale, non-public seminars are allowed).
-
-Do not post papers or supplementary material on university, company, or other private servers that may identify preprints as Eurographics submissions.
+1. It is not allowed to list submissions on institutional websites irrespective of the presentation form.
+2. No publicity via university or company PR teams regardless of whether authors or institutions are kept anonymous – this includes any postings or dissemination via institutional or promoted social media accounts.
+3. No media interviews regardless of mainstream media or tech-focused outlets (small-scale, non-public seminars are allowed).
+4. Do not post papers or supplementary material on university, company, or other private servers that may identify preprints as Eurographics submissions.
 
 ### Double Submission Policy
 
@@ -98,9 +110,10 @@ From all accepted and presented papers, an international jury will select the be
 ### Contact
 For any questions concerning full paper submissions, please do not hesitate to contact the papers program co-chairs:
 
-**Belen Masia**, Universidad de Zaragoza
+- **Belen Masia**, Universidad de Zaragoza
 
-**Justus Thies**, Technical University of Darmstadt
+- **Justus Thies**, Technical University of Darmstadt
 
 Email: chairs-eg2026full@eg.org
- -->
+
+

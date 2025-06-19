@@ -60,22 +60,17 @@ menu:
     - name: submit
       weight: 10
 
-    - identifier: important_dates
-      parent: submit
-      name: important_dates
-      url: /submit/#important_dates
-      weight: 1
-
-    # - identifier: guidelines
+    # - identifier: important_dates
     #   parent: submit
-    #   name: guidelines
-    #   url: /submit/#guidelines
-    #   weight: 2
+    #   name: important_dates
+    #   url: /submit/#important_dates
+    #   weight: 1
 
     - identifier: call_for_papers
       parent: submit
       name: call_for_papers
-      url: /submit/#call_for_papers
+      # url: /submit/#call_for_papers
+      url: /call_for_full_papers/#call_for_full_papers
       weight: 3
 
     - identifier: call_for_short_papers
