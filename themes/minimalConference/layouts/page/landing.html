@@ -1,28 +1,9 @@
 {{ define "main" }}
 
-<!-- 
-<div id=events>
-{{range .Site.Params.events }}
-<p>
-<span class=line>
-  {{T .id }}
-</span>
-<span class=line>
-  <i>{{.date}}</i>
-</span>
-</p>
-{{end}}
-</div>
--->
 
-{{/*  <div id=simple-static></div>
-{{ .Content }}  */}}
+{{/*  <h2>Keynote Speakers</h2>  */}}
+<h2 id=keynotes>{{T "keynotes" }}</h2>
 
-
-
-
-
-<h2>Keynote Speakers</h2>
 {{range .Params.speakers }}
 <div class=keynote-container>
     <img src={{ .portrait }} class=keynote-portrait>

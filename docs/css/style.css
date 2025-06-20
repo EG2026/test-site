@@ -152,6 +152,32 @@ img#banner
   min-height: 100%;
 }
 
+/* pre code
+{
+  font-family: var(--headerfont);
+  font-size: 1.5em;
+  color: #FBDD00;
+  word-break: normal;
+} */
+
+
+table {
+  font-family: var(--headerfont);
+  font-size: 1.5em;
+  word-break: normal;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table th,
+table td {
+  text-align: center;
+  /* color: #FBDD00; */
+}
+
 /* navigation bar */
 
 #nav-border
