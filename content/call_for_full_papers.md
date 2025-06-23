@@ -15,9 +15,24 @@ In addition to novel methodologies and algorithms for Computer Graphics, EUROGRA
 
 All following deadlines are at **23:59 UTC**:
 
+``` 
+[Mon] Sep. 22, 2025: Abstract and submission form deadline
+[Fri] Sep. 26, 2025: Full paper deadline
+[Wed] Nov. 19, 2025: Reviews released
+[Wed] Nov. 26, 2025: Rebuttal due
+[Mon] Dec. 15, 2025: Notification for conditional acceptance or rejection
+[Fri] Jan. 23, 2026: Revised version due
+[Fri] Feb.  6, 2026: Final notification
+[Fri] Feb. 20, 2026: Camera-ready version
+[Fri] Apr.  3, 2026: Registration for at least one paper author
+[Mon] May   4, 2026: Conference begins 
+```
 
 
-|            | Date              | Event                                                       |
+
+
+
+<!-- |            | Date              | Event                                                       |
 |------------|-------------------|-------------------------------------------------------------|
 | Mon        | Sep. 22, 2025     | Abstract and submission form deadline                       |
 | Fri        | Sep. 26, 2025     | Full paper deadline                                         |
@@ -28,7 +43,7 @@ All following deadlines are at **23:59 UTC**:
 | Fri        | Feb. 6, 2026      | Final notification                                          |
 | Fri        | Feb. 20, 2026     | Camera-ready version due                                    |
 | Fri        | Apr. 3, 2026      | Registration deadline for at least one paper author         |
-| Mon        | May  4, 2026      | Conference begins                                           |
+| Mon        | May  4, 2026      | Conference begins                                           | -->
 
 ---
 
@@ -63,7 +78,7 @@ With the rapid progress of search engines and the increased perusal of arXiv pap
 
 ##### *What about citing own prior art?*
 
-When authors cite previous work that they have authored (including any work where there is overlap between its author list and the author list of the present submission), the citation should be in the third person to preserve anonymity. There are, however, situations where such prior work should not be cited. This is the case if these prior works correspond to: (a) non-peer-reviewed prepublications of the submission (e.g., arXiv) with largely similar content (see also section on “arXiv Policy” below), or (b) prepublications with largely similar content (e.g., a poster that is not considered a publication). For (a), see section on “arXiv Policy” below. For (b), they should NOT be cited in the submission, as this would identify the authors. In both cases, these prepublications must be included in a text file and uploaded in the appropriate field of the submission form, as “Prepublications”. This information will be visible to IPC members but not to reviewers. 
+When authors cite previous work that they have authored (including any work where there is overlap between its author list and the author list of the present submission), the citation should be in the third person to preserve anonymity. There are, however, situations where such prior work should not be cited. This is the case if these prior works correspond to: (a) non-peer-reviewed prepublications of the submission (e.g., arXiv) with largely similar content (see also section on “arXiv Policy” below), or (b) prepublications with largely similar content (e.g., a poster that is not considered a publication). For (a), see section on “arXiv Policy” below. For (b), they should NOT be cited in the submission, as this would identify the authors. In both cases, these prepublications must be included in a text file and uploaded in the appropriate field of the submission form, as “Prepublications”. This information will not be visible to reviewers. 
 
 ---
 
@@ -73,20 +88,20 @@ As authors, putting a submission on a repository like arXiv is allowed, either b
 
 ##### *Allowed:*
 
-1. arXiv postings before and after the submission deadline. Do not state that the submission is under review for Eurographics.
-2. YouTube video on personal account. Do not show submission id or anything that could relate to a Eurographics submission. Authors can link the videos from the arXiv page or personal web page.
-3. Code release on personal code repositories (e.g., github). Authors can link the code repository from the arXiv or personal web page.
-4. It is ok to list submissions in job applications and in interviews as long as they are not referred to as Eurographics submissions.
-5. It is ok to present the work in non-public venues in particular job talks as long as they are not referred to as Eurographics submissions.
-6. It is ok to list submissions on author’s webpages as long as they are not referred to as Eurographics submissions.
-7. It is ok to publicize the work via authors’ social media as long as they are not referred to as Eurographics submissions.
+1. · arXiv postings before and after the submission deadline. Do not state that the submission is under review for Eurographics.
+2. · YouTube video on personal account. Do not show submission id or anything that could relate to a Eurographics submission. Authors can link the videos from the arXiv page or personal web page.
+3. · Code release on personal code repositories (e.g., github). Authors can link the code repository from the arXiv or personal web page.
+4. · It is ok to list submissions in job applications and in interviews as long as they are not referred to as Eurographics submissions.
+5. · It is ok to present the work in non-public venues in particular job talks as long as they are not referred to as Eurographics submissions.
+6. · It is ok to list submissions on author’s webpages as long as they are not referred to as Eurographics submissions.
+7. · It is ok to publicize the work via authors’ social media as long as they are not referred to as Eurographics submissions.
 
 ##### *Not allowed:*
 
-1. It is not allowed to list submissions on institutional websites irrespective of the presentation form.
-2. No publicity via university or company PR teams regardless of whether authors or institutions are kept anonymous – this includes any postings or dissemination via institutional or promoted social media accounts.
-3. No media interviews regardless of mainstream media or tech-focused outlets (small-scale, non-public seminars are allowed).
-4. Do not post papers or supplementary material on university, company, or other private servers that may identify preprints as Eurographics submissions.
+1. · It is not allowed to list submissions on institutional websites irrespective of the presentation form.
+2. · No publicity via university or company PR teams regardless of whether authors or institutions are kept anonymous – this includes any postings or dissemination via institutional or promoted social media accounts.
+3. · No media interviews regardless of mainstream media or tech-focused outlets (small-scale, non-public seminars are allowed).
+4. · Do not post papers or supplementary material on university, company, or other private servers that may identify preprints as Eurographics submissions.
 
 ---
 
@@ -110,28 +125,28 @@ Authors who are willing to go one step further toward replicability of their con
 
 ### Timeline, Publication and Prizes
 
-Please note that changes to the list of authors provided in the Submission Form are not allowed after the Submission Form deadline (September 22, 2025).
+· Please note that changes to the list of authors provided in the Submission Form are not allowed after the Submission Form deadline (September 22, 2025).
 
-The reviews will be made available to the authors on November 19, 2025. During a rebuttal period from November 19 to November 26, 2025, authors will be able to submit a brief document to address any factual errors or clarify any issues raised by reviews.
+· The reviews will be made available to the authors on November 19, 2025. During a rebuttal period from November 19 to November 26, 2025, authors will be able to submit a brief document to address any factual errors or clarify any issues raised by reviews.
 
-The date for notification of the results of the first round of the review process is December 15, 2025.
+· The date for notification of the results of the first round of the review process is December 15, 2025.
 
-Revised versions of papers conditionally accepted in the first round must be submitted by January 23, 2026.
+· Revised versions of papers conditionally accepted in the first round must be submitted by January 23, 2026.
 
-The final notification of the outcome of the second reviewing round will be made on February 6, 2026.
+· The final notification of the outcome of the second reviewing round will be made on February 6, 2026.
 
-The camera-ready version of accepted papers will be due on February 20, 2026.
+· The camera-ready version of accepted papers will be due on February 20, 2026.
 
-From all accepted and presented papers, an international jury will select the best papers. The best paper will receive the Günter Enderle Award, presented at Eurographics 2026.
+· From all accepted and presented papers, an international jury will select the best papers. The best paper will receive the Günter Enderle Award, presented at Eurographics 2026.
 
 ---
 
 ### Contact
 For any questions concerning full paper submissions, please do not hesitate to contact the papers program co-chairs:
 
-- **Belen Masia**, Universidad de Zaragoza
+·  **Belen Masia**, Universidad de Zaragoza
 
-- **Justus Thies**, Technical University of Darmstadt
+· **Justus Thies**, Technical University of Darmstadt
 
 Email: chairs-eg2026full@eg.org
 

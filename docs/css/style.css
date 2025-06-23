@@ -152,13 +152,14 @@ img#banner
   min-height: 100%;
 }
 
-/* pre code
+pre code
 {
-  font-family: var(--headerfont);
+  /* font-family: var(--headerfont); */
   font-size: 1.5em;
   color: #FBDD00;
   word-break: normal;
-} */
+
+}
 
 
 table {
@@ -989,4 +990,44 @@ td.teaserColumn
 /* dropdown wrapper */
 .nav-item.dropdown {
     position: relative;   /* for absolute submenu positioning */
+}
+
+/* keynotes grid on the landing page */
+.speakers-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.speakers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.speaker-item {
+  flex: 1 1 200px;
+  max-width: 240px;
+}
+
+.speaker-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.speaker-name {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.speaker-affiliation {
+  margin: 0;
+  font-size: 1rem;
+  /* color: #555; */
 }

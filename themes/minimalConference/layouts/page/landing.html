@@ -2,42 +2,24 @@
 
 
 {{/*  <h2>Keynote Speakers</h2>  */}}
-<h2 id=keynotes>{{T "keynotes" }}</h2>
+<h2 id=keynotes>{{T "keynote_speakers" }}</h2>
 
-{{range .Params.speakers }}
-<div class=keynote-container>
-    <img src={{ .portrait }} class=keynote-portrait>
-    <div class=keynote-text-container>
-    <h3>
-      <span class=keynote-name><a href={{.url}}>{{ .name }}</a></span>
-    <br>
-    <span class=keynote-affiliation>{{ .affiliation}}</span>
-    </h3>
-    <p>
-    {{ if (not (isset . "title")) | or (eq .title "") }}
-    ({{T "stay_tuned_for_talk_information"}})
-    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
-    {{ else }}
-    <h3><span class=keynote-title>{{.title}}</span></h3>
-    <p>
-      {{ .abstract }}
-    </p>
-    {{ end }}
-    </p>
-    {{ if (isset . "youtube") }}
-      <iframe class=keynote-embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    {{end}}
-    <p class=keynote-bio>
-    {{ if (not (isset . "bio")) | or (eq .bio "") }}
-    <!-- just keep it empty -->
-    {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
-    {{ else }}
-    {{.bio}}
-    {{ end }}
-    </p>
+<section id="speakers" class="speakers-section">
+  <div class="container">
+    <div class="speakers-grid">
+      {{ range .Params.speakers }}
+      <div class="speaker-item">
+        <img src="{{ .portrait }}" alt="{{ .name }}" class="speaker-photo" />
+        <h3 class="speaker-name">{{ .name }}</h3>
+        <p class="speaker-affiliation"><em>({{ .affiliation }})</em></p>
+      </div>
+      {{ end }}
     </div>
-</div>
-{{ end }}
+  </div>
+</section>
+
+
+
 
 
 
