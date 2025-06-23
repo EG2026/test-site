@@ -15,8 +15,8 @@ Program Chairs
     <ul>
     {{range .items}}
     <li>
-      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a>,</span>
-      <span class=line>{{.affiliation}}</span>
+      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a></span>
+      <span class=line><em>({{ .affiliation }})</em></span>
     </li>
     {{end}}
     </ul>
@@ -44,8 +44,8 @@ International Programme Committee
     <ul>
     {{range .items}}
     <li>
-      <span class=line>{{ .name }}{{ if .affiliation }}, {{ end }}</span>
-      {{- if .affiliation }}<span class=line>{{ .affiliation }}</span>{{ end }}
+      <span class=line>{{ .name }}{{ if .affiliation }} {{ end }}</span>
+      {{- if .affiliation }}<span class=line><em>({{ .affiliation }})</em></span>{{ end }}
     </li>
     {{end}}
     </ul>
@@ -77,8 +77,8 @@ Local Organization
     <ul>
     {{range .items}}
     <li>
-      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a>,</span>
-      <span class=line>{{.affiliation}}</span>
+      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a></span>
+      <span class=line><em>({{ .affiliation }})</em></span>
     </li>
     {{end}}
     </ul>
