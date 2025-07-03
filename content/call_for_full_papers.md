@@ -25,7 +25,7 @@ All following deadlines are at **23:59 UTC**:
 [Fri] Feb.  6, 2026: Final notification
 [Fri] Feb. 20, 2026: Camera-ready version
 [Fri] Apr.  3, 2026: Registration for at least one paper author
-[Mon] May   4, 2026: Conference begins 
+[Mon] May   4, 2026: Conference begins!
 ```
 
 
@@ -59,6 +59,12 @@ All submissions will undergo a double-blind two-step review process. Accepted fu
 Electronic submission of all papers is mandatory and will be conducted using the [Submission and Review Management (SRMv2)](https://srmv2.eg.org/COMFy/Conference/EG_2026) platform. Papers must be written in English, must be anonymized, and must be formatted according to the Eurographics Computer Graphics Forum guidelines. The publication guidelines and LaTeX templates are available on [SRMv2](https://srmv2.eg.org/COMFy/Conference/EG_2026/Instruction). Accepted papers must be presented orally in English at Eurographics 2026. Review of full papers is based on a double-blind reviewing approach, so please be sure to remove all personal data (such as authors, affiliations, etc.) from your submission. References to your own work should be made in the third person to maintain anonymity. Reviewers are asked to keep confidential all materials sent to them for evaluation.
 
 There is no maximum length imposed on papers. However, papers should only be as long as they need to be, but not longer. Reviewers might rank submissions perceived as being either repetitive or unnecessarily long lower than they would score concisely written papers.
+
+---
+
+### Günter Enderle Best Paper Award and Best-of-Eurographics Session at SIGGRAPH 
+From all accepted and presented papers, an international jury will select the best papers. The best paper will receive the [Günter Enderle Award](https://www.eg.org/wp/eurographics-awards-programme/other-eg-awards/2297-2/), including a cash prize of €1,000, presented at Eurographics 2026.
+Starting 2025, we will have a Best-of-Eurographics session at SIGGRAPH. The authors of the best papers from Eurographics 2026 will have the opportunity to share their work at SIGGRAPH 2026 (ca. 20-minutes presentation). Eurographics will cover part of the registration/costs for this; more information on this will be provided in the future.
 
 ---
 
@@ -123,7 +129,7 @@ Authors who are willing to go one step further toward replicability of their con
 
 ---
 
-### Timeline, Publication and Prizes
+### Timeline Details
 
 · Please note that changes to the list of authors provided in the Submission Form are not allowed after the Submission Form deadline (September 22, 2025).
 
@@ -136,8 +142,6 @@ Authors who are willing to go one step further toward replicability of their con
 · The final notification of the outcome of the second reviewing round will be made on February 6, 2026.
 
 · The camera-ready version of accepted papers will be due on February 20, 2026.
-
-· From all accepted and presented papers, an international jury will select the best papers. The best paper will receive the Günter Enderle Award, presented at Eurographics 2026.
 
 ---
 

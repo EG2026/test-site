@@ -111,7 +111,7 @@ body
   color: var(--turquoise);
   min-width: 400px;
   font-size: 12pt;
-  /* max-width: 2000px; */
+  /* max-width: 1200px; */
   margin: auto;
 }
 
@@ -163,8 +163,8 @@ pre code
 
 
 table {
-  font-family: var(--headerfont);
-  font-size: 1.5em;
+  /* font-family: var(--headerfont); */
+  font-size: 15pt; 
   word-break: normal;
   border-collapse: collapse;
   width: 100%;
@@ -184,7 +184,7 @@ table td {
 #nav-border
 {
   background-color: var(--planet-menu-bg);
-  max-width: 100%;
+  /* max-width: 100%; */
   /* border-top:4px solid #fcfcfc; */
 }
 
@@ -227,7 +227,7 @@ h2, h3, h4 {
 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1500px;
+  max-width: 1100px;
   padding-left: 25px;
   padding-right: 25px;
   width: 90%;
