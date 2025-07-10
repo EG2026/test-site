@@ -264,10 +264,10 @@ Params:
   - id: full_paper_chairs
     items: 
       - name: "Belen Masia"
-        email: "bmasia@unizar.es"
+        email: "chairs-eg2026full@eg.org"
         affiliation: "Universidad de Zaragoza"
       - name: "Justus Thies"
-        email: "justus.thies@tu-darmstadt.de"
+        email: "chairs-eg2026full@eg.org"
         affiliation: "Technical University of Darmstadt"
  
   
