@@ -30,7 +30,21 @@ speakers:
     affiliation: ETH Zurich
     title: ""
     abstract: ""
-    portrait: /images/bernd_bickel.png    
+    portrait: /images/bernd_bickel.png
+
+  - name: Anatole Lécuyer
+    url: https://people.rennes.inria.fr/Anatole.Lecuyer/
+    affiliation: Inria Rennes/IRISA 
+    title: ""
+    abstract: ""
+    portrait: /images/anatole_lecuyer.jpg
+
+  - name: Björn Ommer
+    url: https://ommer-lab.com/people/ommer/
+    affiliation: Ludwig Maximilian University of Munich
+    title: ""
+    abstract: ""
+    portrait: /images/bjorn_ommer.jpg
 
 ---
 
