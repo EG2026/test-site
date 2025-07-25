@@ -74,8 +74,8 @@
   translation: "Doctoral Consortium Chairs"
 - id: diversity_chairs
   translation: "Diversity Chairs"
-- id: sustainability_chairs
-  translation: "Sustainability Chairs"
+- id: sustainability_chair
+  translation: "Sustainability Chair"
 - id: technical_papers_committee
   translation: "Technical Papers Committee"
 - id: awards_committee

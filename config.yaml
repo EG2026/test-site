@@ -269,7 +269,78 @@ Params:
       - name: "Justus Thies"
         email: "chairs-eg2026full@eg.org"
         affiliation: "Technical University of Darmstadt"
- 
+
+
+  - id: short_paper_chairs
+    items: 
+      - name: "Isaak Lim"
+        email: "isaak.lim@cs.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Przem Musialski"
+        email: "przemyslaw.musialski@njit.edu"
+        affiliation: "New Jersey Institute of Technology"
+
+
+  - id: star_chairs
+    items: 
+      - name: "Andrea Bönsch"
+        email: "boensch@vr.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Nobuyuki Umetani"
+        email: "n.umetani@gmail.com "
+        affiliation: "The University of Tokyo"
+
+  - id: education_papers_chairs
+    items: 
+      - name: "Birte Heinemann"
+        email: "heinemann@informatik.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Burkhard Wünsche"
+        email: "burkhard@cs.auckland.ac.nz"
+        affiliation: "University of Auckland"
+
+  - id: posters_chairs
+    items: 
+      - name: "Tim Gerrits"
+        email: "Gerrits@vis.rwth-aachen.de"
+        affiliation: "RWTH Aachen University"
+      - name: "Matthias Teschner "
+        email: "teschner@informatik.uni-freiburg.de"
+        affiliation: "University of Freiburg"
+
+  - id: tutorials_chairs
+    items: 
+      - name: "Raphaëlle Chaine"
+        email: "raphaelle.chaine@liris.cnrs.fr"
+        affiliation: "Claude Bernard University Lyon 1"
+      - name: "Amir Vaxman"
+        email: "avaxman@inf.ed.ac.uk "
+        affiliation: "The University of Edinburgh"
+
+  # - id: doctoral_cons_chairs
+  #   items: 
+  #     - name: ""
+  #       email: ""
+  #       affiliation: ""
+  #     - name: ""
+  #       email: ""
+  #       affiliation: ""
+
+  # - id: diversity_chairs
+  #   items: 
+  #     - name: ""
+  #       email: ""
+  #       affiliation: ""
+  #     - name: ""
+  #       email: ""
+  #       affiliation: ""
+
+  - id: sustainability_chair
+    items: 
+      - name: "Dennis Bukenberger"
+        email: "dennis.bukenberger@tum.de "
+        affiliation: "TU Munich"
+
   
   local_organization:
   - id: organizational_team
