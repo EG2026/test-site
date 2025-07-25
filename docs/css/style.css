@@ -999,14 +999,13 @@ td.teaserColumn
 }
 
 .speakers-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Force 3 speakers per row */
   gap: 2rem;
+  justify-items: center;
 }
 
 .speaker-item {
-  flex: 1 1 200px;
   max-width: 240px;
 }
 
