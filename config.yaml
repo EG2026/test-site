@@ -378,14 +378,340 @@ Params:
 
     - id : sorting_committee
       items:
-        - name: "TBA"
-          affiliation: ""
+        - name: "Jan Bender"
+          affiliation: "RWTH Aachen University"
+
+        - name: "Marcel Campen"
+          affiliation: "Paderborn University"
+
+        - name: "Valentin Deschaintre"
+          affiliation: "Adobe Research"
+
+        - name: "Marc Habermann"
+          affiliation: "Max Planck Institute for Informatics"
+
+        - name: "Mina Konaković Luković"
+          affiliation: "Massachusetts Institute of Technology"
+
+        - name: "Ana Serrano"
+          affiliation: "Universidad de Zaragoza"
+
+        - name: "Beibei Wang"
+          affiliation: "Nanjing University"
 
     - id: ipc_members
       items:
-        - name: "TBA"
-          affiliation: ""
+        - name: "Marc Alexa"
+          affiliation: "Technical University of Berlin"
 
+        - name: "Marco Attene"
+          affiliation: "CNR - IMATI"
+
+        - name: "Hadar Averbuch-Elor"
+          affiliation: "Cornell University"
+
+        - name: "Jakob Andreas Bærentzen"
+          affiliation: "Technical University of Denmark"
+
+        - name: "Pascal Barla"
+          affiliation: "Inria"
+
+        - name: "Christopher Batty"
+          affiliation: "University of Waterloo"
+
+        - name: "Mojtaba Bemana"
+          affiliation: "Max Planck Institute for Informatics"
+
+        - name: "Amit Bermano"
+          affiliation: "Tel-Aviv University"
+
+        - name: "David Bommes"
+          affiliation: "University of Bern"
+
+        - name: "Mario Botsch"
+          affiliation: "TU Dortmund University"
+
+        - name: "Stefan Bruckner"
+          affiliation: "University of Rostock"
+
+        - name: "Dan Casas"
+          affiliation: "Amazon"
+
+        - name: "Umberto Castellani"
+          affiliation: "University of Verona"
+
+        - name: "Susana Castillo"
+          affiliation: "TU Braunschweig"
+
+        - name: "Raphaëlle Chaine"
+          affiliation: "Claude Bernard University Lyon 1"
+
+        - name: "Praneeth Chakravarthula"
+          affiliation: "UNC Chapel Hill"
+
+        - name: "Prashanth Chandran"
+          affiliation: "Google"
+
+        - name: "Yiorgos Chrysanthou"
+          affiliation: "University of Cyprus & CYENS"
+
+        - name: "Daniel Cohen-Or"
+          affiliation: "Tel-Aviv University"
+
+        - name: "Carsten Dachsbacher"
+          affiliation: "Karlsruhe Institute of Technology"
+
+        - name: "Gilles Daviet"
+          affiliation: "NVIDIA"
+
+        - name: "Johanna Delanoy"
+          affiliation: "INSA Lyon"
+
+        - name: "Oliver Deussen"
+          affiliation: "University of Konstanz"
+
+        - name: "Piotr Didyk"
+          affiliation: "Università della Svizzera italiana"
+
+        - name: "Julie Digne"
+          affiliation: "CNRS"
+
+        - name: "Michael Doggett"
+          affiliation: "Lund University"
+
+        - name: "Elmar Eisemann"
+          affiliation: "Delft University of Technology"
+
+        - name: "Noura Faraj"
+          affiliation: "Université de Montpellier"
+
+        - name: "Zachary Ferguson"
+          affiliation: "CLO Virtual Fashion"
+
+        - name: "Victoria Fernandez Abrevaya"
+          affiliation: "Max Planck Institute for Intelligent Systems"
+
+        - name: "Michael Fischer"
+          affiliation: "Adobe Research"
+
+        - name: "Linus Franke"
+          affiliation: "Inria"
+
+        - name: "Xiao-Ming Fu"
+          affiliation: "University of Science and Technology of China"
+
+        - name: "Eric Galin"
+          affiliation: "University Lyon 1"
+
+        - name: "Enrico Gobbetti"
+          affiliation: "CRS4"
+
+        - name: "Michael Goesele"
+          affiliation: "Meta Reality Labs Research"
+
+        - name: "Eric Guérin"
+          affiliation: "CNRS"
+
+        - name: "Jianwei Guo"
+          affiliation: "Beijing Normal University"
+
+        - name: "Jie Guo"
+          affiliation: "Nanjing University"
+
+        - name: "Toshiya Hachisuka"
+          affiliation: "University of Waterloo"
+
+        - name: "Johannes Hanika"
+          affiliation: "Karlsruhe Institute of Technology"
+
+        - name: "Xiaowei He"
+          affiliation: "Institute of Software, Chinese Academy of Sciences"
+
+        - name: "Felix Heide"
+          affiliation: "Princeton University"
+
+        - name: "Philipp Henzler"
+          affiliation: "Google"
+
+        - name: "Klaus Hildebrandt"
+          affiliation: "Delft University of Technology"
+
+        - name: "Nima Kalantari"
+          affiliation: "Texas A&M University"
+
+        - name: "Yoshihiro Kanamori"
+          affiliation: "University of Tsukuba"
+
+        - name: "Petr Kellnhofer"
+          affiliation: "Delft University of Technology"
+
+        - name: "Bernhard Kerbl"
+          affiliation: "TU Wien"
+
+        - name: "Seungyong Lee"
+          affiliation: "POSTECH"
+
+        - name: "Thomas Leimkuehler"
+          affiliation: "Max Planck Institute for Informatics"
+
+        - name: "Tzu-Mao Li"
+          affiliation: "University of California San Diego"
+
+        - name: "Jorge Lopez-Moreno"
+          affiliation: "Universidad Rey Juan Carlos"
+
+        - name: "Sandra Malpica"
+          affiliation: "Universidad de Zaragoza"
+
+        - name: "Daniel Martin"
+          affiliation: "Universidad de Zaragoza"
+
+        - name: "Radomir Mech"
+          affiliation: "Adobe Research"
+
+        - name: "Pooran Memari"
+          affiliation: "Ecole Polytechnique"
+
+        - name: "Dominik Michels"
+          affiliation: "KAUST"
+
+        - name: "Przemyslaw Musialski"
+          affiliation: "New Jersey Institute of Technology"
+
+        - name: "Karol Myszkowski"
+          affiliation: "Max Planck Institute for Informatics"
+
+        - name: "Renato Pajarola"
+          affiliation: "University of Zurich"
+
+        - name: "Ye Pan"
+          affiliation: "Shanghai Jiao Tong University"
+
+        - name: "Despoina Paschalidou"
+          affiliation: "NVIDIA"
+
+        - name: "Mathias Paulin"
+          affiliation: "Université de Toulouse"
+
+        - name: "Nuria Pelechano"
+          affiliation: "Universitat Politecnica de Catalunya"
+
+        - name: "Fabio Pellacini"
+          affiliation: "University of Modena and Reggio Emilia"
+
+        - name: "Nico Pietroni"
+          affiliation: "University of Technology Sydney"
+
+        - name: "Anran Qi"
+          affiliation: "Inria"
+
+        - name: "Bo Ren"
+          affiliation: "Nankai University"
+
+        - name: "Jing Ren"
+          affiliation: "ETH Zurich"
+
+        - name: "Christian Richardt"
+          affiliation: "Meta Reality Labs"
+
+        - name: "Tobias Ritschel"
+          affiliation: "University College London"
+
+        - name: "Damien Rohmer"
+          affiliation: "Ecole Polytechnique"
+
+        - name: "Timo Ropinski"
+          affiliation: "Ulm University"
+
+        - name: "Beatriz Santos"
+          affiliation: "University of Aveiro"
+
+        - name: "Silvia Sellan"
+          affiliation: "Columbia University"
+
+        - name: "Karan Singh"
+          affiliation: "University of Toronto"
+
+        - name: "Philipp Slusallek"
+          affiliation: "DFKI & Saarland University"
+
+        - name: "Justin Solomon"
+          affiliation: "Massachusetts Institute of Technology"
+
+        - name: "Marc Stamminger"
+          affiliation: "Friedrich-Alexander University of Erlangen-Nuremberg"
+
+        - name: "Christian Theobalt"
+          affiliation: "Max Planck Institute for Informatics"
+
+        - name: "Jean-Marc Thiery"
+          affiliation: "Adobe Research"
+
+        - name: "Bernhard Thomaszewski"
+          affiliation: "ETH Zurich"
+
+        - name: "Nils Thuerey"
+          affiliation: "Technical University of Munich"
+
+        - name: "Cara Tursun"
+          affiliation: "University of Groningen"
+
+        - name: "Mikaela Uy"
+          affiliation: "NVIDIA"
+
+        - name: "Amir Vaxman"
+          affiliation: "The University of Edinburgh"
+
+        - name: "Michael Wand"
+          affiliation: "University of Mainz"
+
+        - name: "Rui Wang"
+          affiliation: "Zhejiang University"
+
+        - name: "Wenping Wang"
+          affiliation: "Texas A&M University"
+
+        - name: "Miao Wang"
+          affiliation: "Beihang University"
+
+        - name: "Li-Yi Wei"
+          affiliation: "Adobe Research"
+
+        - name: "Sebastian Weiss"
+          affiliation: "Disney Research"
+
+        - name: "Tim Weyrich"
+          affiliation: "Friedrich-Alexander University of Erlangen-Nuremberg"
+
+        - name: "Tsien Tsin Wong"
+          affiliation: "Monash University"
+
+        - name: "Hongzhi Wu"
+          affiliation: "Zhejiang University"
+
+        - name: "Kui Wu"
+          affiliation: "Tencent"
+
+        - name: "Chris Wyman"
+          affiliation: "NVIDIA"
+
+        - name: "Xin Yang"
+          affiliation: "Dalian University of Technology"
+
+        - name: "Ran Yi"
+          affiliation: "Shanghai Jiao Tong University"
+
+        - name: "Biao Zhang"
+          affiliation: "KAUST"
+
+        - name: "Junqiu Zhu"
+          affiliation: "Shandong University"
+
+        - name: "Daniel Zint"
+          affiliation: "New York University"
+
+        - name: "Gaspard Zoss"
+          affiliation: "Disney Research"
   
   committees:
     - id: technical_papers_committee
