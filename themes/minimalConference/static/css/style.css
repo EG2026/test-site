@@ -621,6 +621,9 @@ table.chairs-table td
 {
   padding-bottom: 20px;
 }
+table.chairs-table td.chairs-name { 
+  vertical-align: top; 
+}
 
 .submit-now
 {
