@@ -56,7 +56,7 @@ All submissions will undergo a double-blind two-step review process; reviewer gu
 
 ### Submission Details
 
-Electronic submission of all papers is mandatory and will be conducted using the [Submission and Review Management (SRMv2)](https://srmv2.eg.org/COMFy/Conference/EG_2026) platform. Papers must be written in English, must be anonymized, and must be formatted according to the Eurographics Computer Graphics Forum guidelines. The publication guidelines and LaTeX templates are available on [SRMv2](https://srmv2.eg.org/COMFy/Conference/EG_2026/Instruction). Accepted papers must be presented orally in English at Eurographics 2026. Review of full papers is based on a double-blind reviewing approach, so please be sure to remove all personal data (such as authors, affiliations, etc.) from your submission. References to your own work should be made in the third person to maintain anonymity. Reviewers are asked to keep confidential all materials sent to them for evaluation.
+Electronic submission of all papers is mandatory and will be conducted using the [Submission and Review Management (SRMv2)](https://srmv2.eg.org/COMFy/Conference/EG_2026) platform. Papers must be written in English, must be anonymized, and must be formatted according to the Eurographics Computer Graphics Forum guidelines. The publication guidelines and LaTeX templates are available on [SRMv2](https://srmv2.eg.org/COMFy/Conference/EG_2026/Instruction). Accepted papers must be presented orally in English at Eurographics 2026. Review of full papers is based on a double-blind reviewing approach, so please be sure to remove all personal data (such as authors, affiliations, etc.) from your submission. References to your own work should be made in the third person to maintain anonymity. Reviewers are asked to keep confidential all materials sent to them for evaluation. More instructions for authors can be found [here](https://srmv2.eg.org/COMFy/Conference/EG_2026/Instruction).
 
 There is no maximum length imposed on papers. However, papers should only be as long as they need to be, but not longer. Reviewers might rank submissions perceived as being either repetitive or unnecessarily long lower than they would score concisely written papers.
 
@@ -119,13 +119,19 @@ By submitting a manuscript to the Eurographics Full Papers program, authors ackn
 
 ### Re-Submitted Material
 
-For papers that have previously been reviewed by other venues and have been rejected or withdrawn, the authors are encouraged to provide a cover letter to describe the history of the paper (however, this does not imply reviewer continuity). This cover letter can also answer the comments made in the previous reviews, by either listing the changes that were made to comply with them or discussing/rebutting/clarifying some elements if need be. Though not mandatory, this procedure is strongly encouraged. The cover letter has to be submitted through SRM as an “Additional Attachment” (see the last section of the SRM upload form for details).
+For papers that have previously been reviewed by other venues and have been rejected or withdrawn, the authors are encouraged to provide a cover letter to describe the history of the paper (however, this does not imply reviewer continuity). This cover letter can also answer the comments made in the previous reviews, by either listing the changes that were made to comply with them or discussing/rebutting/clarifying some elements if need be. Though not mandatory, this procedure is strongly encouraged. The cover letter has to be submitted as "Additional Material" through SRM; please make sure you keep it anonymized.
+
+---
+
+### Human Subjects Data
+
+If a paper makes use of data from human subjects, the collection and use of such data should have been conducted carefully and should adhere to ethical standards for responsible research practice, as well as data protection regulations. In many countries and institutions, the collection and use of personally identifiable data or data from human subjects is subject to approval from an Ethics Committee or Institutional Review Board (IRB, or equivalent). If the use of such data was approved by an IRB, stating this is sufficient. If the use of such data has not (yet) been approved by an IRB, authors should provide information on any pending approval process, how the data was obtained, as well as discuss if and how consent was obtained (or why it, perhaps, could not be obtained). This discussion can be included either in the main paper or in the supplementary material. If the authors use an existing, published dataset, we encourage (but do not require) them to check how data was collected and whether consent was obtained. **These guidelines have been adapted from the ICCV 2025 Authors Guidelines.*
 
 ---
 
 ### Graphics Replicability Stamp Initiative
 
-Authors who are willing to go one step further toward replicability of their contributed algorithm and provide a complete open-source implementation can get additional recognition via submission to the Graphics Replicability Stamp Initiative (see [http://www.replicabilitystamp.org/(http://www.replicabilitystamp.org/)]). All articles published in the Computer Graphics Forum are eligible to apply for the stamp.
+Authors who are willing to go one step further toward replicability of their contributed algorithm and provide a complete open-source implementation can get additional recognition via submission to the Graphics Replicability Stamp Initiative (see [http://www.replicabilitystamp.org/](http://www.replicabilitystamp.org/)). All articles published in the Computer Graphics Forum are eligible to apply for the stamp.
 
 ---
 

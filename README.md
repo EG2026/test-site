@@ -29,6 +29,6 @@ Once you're happy with your changes, then you can "deploy" your changes by
 overwriting the cached version of the website in `docs/`
 
 
-    # hugo -D -d docs 
+    hugo -D -d docs 
 
 Then `git commit` your changes (including those to `docs/` and `git push`.
