@@ -10,6 +10,9 @@ Authors are invited to submit short papers [4 pages max] that present self-conta
 
 Accepted short papers will be published in the Short Papers digital media proceedings and in the Eurographics Digital Library. Authors of accepted papers will be expected to present their work as an oral presentation at the conference.
 
+---
+
+
 ### Timeline
 
 All following deadlines are at **23:59 UTC**:
@@ -22,16 +25,22 @@ All following deadlines are at **23:59 UTC**:
 [Mon] May   4, 2026: Conference begins!
 ```
 
+---
+
 ### Submission details
 
 Submissions will be made electronically through the Eurographics [Submission and Review Management (SRM) system](https://srmv2.eg.org/COMFy/Conference/EG_2025S). Submitted papers must be anonymous, up to 4 pages in length, and formatted according to the Eurographics Author’s guidelines (short papers LaTeX style package available from the [SRM](https://srmv2.eg.org/COMFy/Conference/EG_2025/Instruction) system).
 
 Authors of accepted papers will present a super short summary or a teaser during a fast-forward session. This presentation will be around 25 seconds (exact length to be decided) and shall be augmented by slides. To ensure a smooth organization, they will be asked to prepare a short video of the slides for this purpose, in two versions: one with the spoken text and one without. These FF presentations will be available on the web throughout the conference. Details will be sent to accepted paper authors.
 
+---
+
 
 ### Plagiarism
 
 A submission to the Eurographics Short Papers program should describe an original work of the authors. Authors must not use ideas or content originating from others without properly crediting their original sources. Note that such sources are not limited to peer-reviewed publications but also include patents, textbooks, technical reports, theses, unpublished work posted on arXiv, and other posts on the World Wide Web. Failure to comply with this requirement will be considered plagiarism and result in rejection.
+
+---
 
 
 ### Prior Art
@@ -40,17 +49,23 @@ Authors are expected to cite, discuss differences and novelty, and compare resul
 
 This also applies to patents, which also undergo a professional reviewing process. But what about technical reports, and other non-peer-reviewed publications, such as technical reports or papers posted on arXiv, which we henceforth refer to as pre-publications? With the rapid progress of search engines and the increased perusal of arXiv papers by the scientific community, asking authors to thoroughly compare their work to these pre-publications imposes an unreasonable burden — a seemingly relevant report that is incomplete in its disclosure or validation might appear online shortly before the deadline. Although peer-reviewed publications are certainly not immune to these shortcomings, they have, at least, been judged sufficiently complete and valid by a group of peers. Consequently, authors are not required to discuss and compare their work with recent pre-publications (arXiv, technical reports, theses, etc.), although they must properly cite those that inspired them (see “Plagiarism” above). Nevertheless, we encourage authors to mention all related works they are aware of as good academic practice dictates. Note that with new works posted on arXiv on a daily basis, it is increasingly likely that reviewers might point out similarities between the submitted work and online reports that have been missed by the authors. In this case, authors of conditionally accepted papers should be prepared to cite these pre-publications in their final revision as concurrent work, without the burden of having to detail how their work compares to or differs from these pre-publications.
 
+---
+
 
 ### arXiv Policy
 
 Please refer to the [Eurographics 2025 arXiv Policy](https://eg25.cs.ucl.ac.uk/main/arxiv-policy.html).
 
 
+---
+
 
 ### In-Person Presentation Policy
 
 Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.uk/main/presentation-policy.html).
 
+
+---
 
 ### Contact
 
