@@ -4,6 +4,8 @@ type:  "page"               # or whatever your theme expects
 layout: "call_for_stars"  # this tells Hugo to use layouts/page/call_for_full_papers.html
 ---
 
+(All following links to be updated)
+
 The State-of-the-Art Reports (STARs) track at the Eurographics conference is a prestigious and integral component of the event, dedicated to providing comprehensive surveys on current and emerging topics in computer graphics. These reports synthesize recent advancements, significant research findings, and future directions in various subfields. STARs reports have a significant impact on the community, as evidenced by their high number of citations.
 
 
@@ -60,6 +62,7 @@ At EUROGRAPHICS 2026, the authors of a STAR will be given 90 minutes to present 
 ### arXiv Policy
 
 Please refer to the [Eurographics 2025 arXiv Policy](https://eg25.cs.ucl.ac.uk/main/arxiv-policy.html).
+
 ---
 
 ### Double Submission Policy
