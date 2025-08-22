@@ -1,4 +1,4 @@
-baseURL: "https://test-eg2026.github.io/"
+baseURL: "https://eg2026.github.io/test-site/"
 publishDir: "docs"
 languageCode: en-us
 title: EUROGRAPHICS 2026 - Conference of the European Association for Computer Graphics 2026
