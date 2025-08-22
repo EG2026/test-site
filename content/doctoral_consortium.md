@@ -38,7 +38,7 @@ Eligible Doctoral Consortium students who would like to participate in the Docto
     6. · dissertation status and a description of the remaining work;
     7. · current and expected contributions.
     
-The research statement should transcend the scope of a single publication or project, and instead focus on the general research theme or agenda for the student’s PhD thesis.
+    The research statement should transcend the scope of a single publication or project, and instead focus on the general research theme or agenda for the student’s PhD thesis.
     
 2. Supervisor’s letter of support: A one-page signed letter from the PhD student’s supervisor, supporting her/his participation in the Doctoral Consortium, and providing the following information:
     1. the student’s status with respect to the institution’s PhD requirements;
