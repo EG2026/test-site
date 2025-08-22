@@ -28,24 +28,25 @@ Template: The format should be in accordance with Eurographics Author’s guidel
 
 Eligible Doctoral Consortium students who would like to participate in the Doctoral Consortium should submit the following documents as a single PDF file:
 
-- Research Statement: A 3-4 pages extended abstract summarizing their dissertation research, singly authored by themself. The submissions should NOT be anonymous. The use of figures is encouraged. This document should include:
-    - · university doctoral program context (e.g.program duration/funding) in which the work is being conducted, including starting date and expected graduation date;
-    - · motivation that drives the dissertation research;
-    - · research objectives/questions;
-    - · background and related work that informs the author’s research;
-    - · research approach, methodology and proposed experiments (where appropriate);
-    - · dissertation status and a description of the remaining work;
-    - · current and expected contributions.
+1. Research Statement: A 3-4 pages extended abstract summarizing their dissertation research, singly authored by themself. The submissions should NOT be anonymous. The use of figures is encouraged. This document should include:
+
+    1. · university doctoral program context (e.g.program duration/funding) in which the work is being conducted, including starting date and expected graduation date;
+    2. · motivation that drives the dissertation research;
+    3. · research objectives/questions;
+    4. · background and related work that informs the author’s research;
+    5. · research approach, methodology and proposed experiments (where appropriate);
+    6. · dissertation status and a description of the remaining work;
+    7. · current and expected contributions.
     
-    The research statement should transcend the scope of a single publication or project, and instead focus on the general research theme or agenda for the student’s PhD thesis.
+The research statement should transcend the scope of a single publication or project, and instead focus on the general research theme or agenda for the student’s PhD thesis.
     
-- Supervisor’s letter of support: A one-page signed letter from the PhD student’s supervisor, supporting her/his participation in the Doctoral Consortium, and providing the following information:
-        the student’s status with respect to the institution’s PhD requirements;
-        the expected date of thesis/dissertation defense or graduation;
-        why attendance at this Doctoral Consortium would be particularly beneficial to the student;
-        what contributions the student is likely to make to the event if invited to attend.
+2. Supervisor’s letter of support: A one-page signed letter from the PhD student’s supervisor, supporting her/his participation in the Doctoral Consortium, and providing the following information:
+    1. the student’s status with respect to the institution’s PhD requirements;
+    1. the expected date of thesis/dissertation defense or graduation;
+    2. why attendance at this Doctoral Consortium would be particularly beneficial to the student;
+    3. what contributions the student is likely to make to the event if invited to attend.
     
-- Curriculum vitae: A 1-2 pages CV plus the list of all publications.
+3. Curriculum vitae: A 1-2 pages CV plus the list of all publications.
 
 All three documents must be written in English. 
 

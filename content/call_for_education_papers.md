@@ -8,15 +8,15 @@ layout: "call_for_education_papers"  # this tells Hugo to use layouts/page/call_
 
 The scope of the track includes topics in education concerned with computer graphics and related areas, relevant teaching/classroom experience, as well as assignments for use in these subject areas. We invite authors to submit papers, panels and outstanding student projects specifically related but not limited to the following topics:
 
-- · Teaching Computer Graphics courses to diverse audiences and levels.
+1. · Teaching Computer Graphics courses to diverse audiences and levels.
 
-- · Teaching related areas such as Visualisation, Animation, VR/AR/XR, 3D printing, and Game Development.
+2. · Teaching related areas such as Visualisation, Animation, VR/AR/XR, 3D printing, and Game Development.
 
-- · Designing and teaching face-to-face, online and hybrid courses in the abovementioned areas.
+3. · Designing and teaching face-to-face, online and hybrid courses in the abovementioned areas.
 
-- · Enabling and exploiting visual tools and techniques to teach in other disciplines.
+4. · Enabling and exploiting visual tools and techniques to teach in other disciplines.
 
-- · Promoting undergraduate research in Computer Graphics.
+5. · Promoting undergraduate research in Computer Graphics.
    
 ---
 
