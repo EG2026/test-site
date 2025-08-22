@@ -64,6 +64,13 @@
       <description>(All following links to be updated)&#xA;The Eurographics 2025 Tutorials Committee invites you to propose tutorials teaching the technical background of a given subject or demonstrating its potential creative applications. Tutorials are intended to show what can be done, but even more importantly, how this is done and what kind of tools can be used to do it. In a proposal for a tutorial, you should consider that tutorial attendees come from diverse backgrounds, ranging from research and development to education and application.</description>
     </item>
     <item>
+      <title>Diversity Panel</title>
+      <link>https://eg2026.github.io/test-site/diversity_panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/test-site/diversity_panel/</guid>
+      <description>Join us at Eurographics 2026 for an engaging discussion on mentorship in computer graphics, bringing together researchers and experts to explore the impact of mentorship on career growth, collaboration, and community building. This session will highlight best practices, address common challenges, and lay the groundwork for establishing a Eurographics Mentorship Programme. Whether you’re an experienced mentor, a mentee, or simply passionate about fostering a supportive research culture, your insights can help shape an initiative that strengthens our community.</description>
+    </item>
+    <item>
       <title>Doctoral Consortium</title>
       <link>https://eg2026.github.io/test-site/doctoral_consortium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -90,6 +97,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://eg2026.github.io/test-site/submit/</guid>
       <description> </description>
+    </item>
+    <item>
+      <title>Sustainability Panel</title>
+      <link>https://eg2026.github.io/test-site/sustainability_panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://eg2026.github.io/test-site/sustainability_panel/</guid>
+      <description>Join us at Eurographics 2026 for this new fishbowl-style discussion on sustainability in computer graphics, featuring leading voices from industry and research. Thereby, sustainability focuses on environmental aspects, i.e., addressing resource consumption and discussing how graphics technology can complement fields like environmental and climate research. In this open dialogue format, experts will share insights on (reducing) energy footprints and explore how our core research questions may evolve for a more environmentally cautious future.</description>
     </item>
   </channel>
 </rss>

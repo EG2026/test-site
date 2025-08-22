@@ -56,9 +56,9 @@ All three documents must be written in English.
 
 The review process is single-anonymous. The review and decision of acceptance will take into account:
 
-- · Quality of the submission (potential contribution and impact of the research to the field of computer graphics) and the author’s stage of doctoral research;
-- · the benefits of the consortium for the author’s PhD research;
-- · the author’s contribution to the diversity of topics, backgrounds and profiles that will integrate the Consortium.
+1. · Quality of the submission (potential contribution and impact of the research to the field of computer graphics) and the author’s stage of doctoral research;
+2. · the benefits of the consortium for the author’s PhD research;
+3. · the author’s contribution to the diversity of topics, backgrounds and profiles that will integrate the Consortium.
 
 Each accepted author will be paired with a panelist, a senior researcher in their research field, with whom they will be interacting in a one-to-one manner. 
 

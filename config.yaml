@@ -109,6 +109,18 @@ menu:
       url: /doctoral_consortium/#doctoral_consortium
       weight: 9
 
+    - identifier: diversity_panel
+      parent: submit
+      name: diversity_panel
+      url: /diversity_panel/#diversity_panel
+      weight: 10
+
+    - identifier: sustainability_panel
+      parent: submit
+      name: sustainability_panel
+      url: /sustainability_panel/#sustainability_panel
+      weight: 11
+
 
 
     - name: program
