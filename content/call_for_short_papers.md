@@ -20,7 +20,7 @@ All following deadlines are at **23:59 UTC**:
 [Mon] Apr. 13, 2026: Reviews released
 [Fri] Apr. 24, 2026: Rebuttal due
 [Mon] May   4, 2026: Conference begins!
-
+```
 
 ### Submission details
 
