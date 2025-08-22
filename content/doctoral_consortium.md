@@ -41,10 +41,10 @@ Eligible Doctoral Consortium students who would like to participate in the Docto
 2. The research statement should transcend the scope of a single publication or project, and instead focus on the general research theme or agenda for the student’s PhD thesis.
     
 3. Supervisor’s letter of support: A one-page signed letter from the PhD student’s supervisor, supporting her/his participation in the Doctoral Consortium, and providing the following information:
-    1. the student’s status with respect to the institution’s PhD requirements;
-    1. the expected date of thesis/dissertation defense or graduation;
-    2. why attendance at this Doctoral Consortium would be particularly beneficial to the student;
-    3. what contributions the student is likely to make to the event if invited to attend.
+    1. · the student’s status with respect to the institution’s PhD requirements;
+    2. · the expected date of thesis/dissertation defense or graduation;
+    3. · why attendance at this Doctoral Consortium would be particularly beneficial to the student;
+    4. · what contributions the student is likely to make to the event if invited to attend.
     
 4. Curriculum vitae: A 1-2 pages CV plus the list of all publications.
 
