@@ -71,7 +71,7 @@ Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.u
 
 For any questions concerning short paper submissions, please do not hesitate to contact the program co-chairs:
 
-·  **Isaak Lim**, RWTH Aachen University
+· **Isaak Lim**, RWTH Aachen University
 
 · **Przemyslaw Musialski**, New Jersey Institute of Technology
 

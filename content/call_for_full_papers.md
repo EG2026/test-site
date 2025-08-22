@@ -154,7 +154,7 @@ Authors who are willing to go one step further toward replicability of their con
 ### Contact
 For any questions concerning full paper submissions, please do not hesitate to contact the papers program co-chairs:
 
-·  **Belen Masia**, Universidad de Zaragoza
+· **Belen Masia**, Universidad de Zaragoza
 
 · **Justus Thies**, Technical University of Darmstadt
 

@@ -81,7 +81,7 @@ Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.u
 
 For any questions concerning STAR submissions, please do not hesitate to contact the program co-chairs:
 
-·  **Andrea Bönsch**, RWTH Aachen University
+· **Andrea Bönsch**, RWTH Aachen University
 
 · **Nobuyuki Umetani**, The University of Tokyo
 

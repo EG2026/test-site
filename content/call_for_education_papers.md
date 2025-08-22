@@ -67,9 +67,9 @@ Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.u
 
 For any questions concerning education paper submissions, please do not hesitate to contact the program co-chairs:
 
-·  **Birte Heinemann**, RWTH Aachen University
+· **Birte Heinemann**, RWTH Aachen University
 
 · **Burkhard Wünsche**, University of Auckland
 
-Email: chairs-eg2026edu@eg.org (To be confirmed)
+Email: chairs-eg2026edu@eg.org (to be confirmed)
 
