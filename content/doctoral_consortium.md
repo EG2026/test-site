@@ -16,7 +16,13 @@ The applicants are strongly encouraged to consider submitting a poster of their 
 
 ### Timeline
 
-TBA
+(tentative dates)
+
+``` 
+[Thu] Feb.  5, 2026: Submission deadline
+[Fri] Feb. 24, 2026: Notification of acceptance
+[Mon] May   4, 2026: Conference begins!
+```
 
 ---
 

@@ -16,6 +16,8 @@ Digital support materials of accepted tutorials will be made available to every 
 
 ### Timeline
 
+(tentative dates)
+
 ``` 
 [Tue] Nov. 25, 2026: Submission of full tutorial proposals
 [Tue] Jan.  6, 2026: Acceptance/rejection notification
