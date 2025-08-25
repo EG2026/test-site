@@ -61,12 +61,6 @@ At EUROGRAPHICS 2026, the authors of a STAR will be given 90 minutes to present 
 
 ---
 
-### arXiv Policy
-
-Please refer to the [Eurographics 2025 arXiv Policy](https://eg25.cs.ucl.ac.uk/main/arxiv-policy.html).
-
----
-
 ### Double Submission Policy
 
 By submitting a manuscript to the Eurographics Full Papers program, authors acknowledge that the technical contributions they claim have not been previously published or accepted for publication in another peer-reviewed venue and that no manuscript substantially similar in content is currently under review. Violations constitute grounds for rejection.
@@ -81,7 +75,7 @@ Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.u
 
 ### Contact
 
-For any questions concerning STAR submissions, please do not hesitate to contact the program co-chairs:
+For any questions concerning STAR submissions, please do not hesitate to contact the STARs program co-chairs:
 
 · **Andrea Bönsch**, RWTH Aachen University
 
