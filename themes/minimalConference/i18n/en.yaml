@@ -128,6 +128,8 @@
   translation: "Sustainability Panel"
 - id: doctoral_consortium
   translation: "Doctoral Consortium"
+- id: presentation_policy
+  translation: "In-Person Presentation Policy"
 - id: registration
   translation: "Registration"
 - id: presenting
