@@ -27,7 +27,7 @@ All following deadlines are at **23:59 UTC**:
 
 ### Topics
 
-We welcome submissions on all topics relevant to EUROGRAPHICS and particularly encourage STARs on subjects not covered in recent editions. STAR reports on cross-sectional, multidisciplinary areas are also highly encouraged. Additionally, a STAR can address the use of Computer Graphics techniques in different scientific disciplines or industrial practices. A list of recent STARs can be found on the websites of recent editions of the EUROGRAPHICS conference, such as those for [2025](https://diglib.eg.org/collections/c400c5c1-b64e-4618-8802-baf78ce50641), [2024](https://diglib.eg.org/collections/772434be-95f0-4c24-a23e-015e9bfed0cc), [2023](https://diglib.eg.org/collections/84e53b52-0e4c-4a5b-85a4-6140b0806d03) and [2022](https://diglib.eg.org/handle/10.2312/2633168).
+We welcome submissions on all topics relevant to EUROGRAPHICS and particularly encourage STARs on subjects not covered in recent editions. STAR reports on cross-sectional, multidisciplinary areas are also highly encouraged. Additionally, a STAR can address the use of Computer Graphics techniques in different scientific disciplines or industrial practices. A list of recent STARs can be found on the websites of recent editions of the EUROGRAPHICS conference, such as those for [2025](https://diglib.eg.org/collections/c400c5c1-b64e-4618-8802-baf78ce50641), [2024](https://diglib.eg.org/collections/772434be-95f0-4c24-a23e-015e9bfed0cc), [2023](https://diglib.eg.org/communities/9cdc28cb-c390-4e85-9e6c-2653465ffa4f) and [2022](https://diglib.eg.org/handle/10.2312/2633168).
 
 ---
 
@@ -58,12 +58,6 @@ Electronic submissions of STARs are mandatory and will be conducted using the Su
 ### If Accepted
 
 At EUROGRAPHICS 2026, the authors of a STAR will be given 90 minutes to present the report at a level that allows non-experts in the particular domain to follow the presentation.
-
----
-
-### Double Submission Policy
-
-By submitting a manuscript to the Eurographics Full Papers program, authors acknowledge that the technical contributions they claim have not been previously published or accepted for publication in another peer-reviewed venue and that no manuscript substantially similar in content is currently under review. Violations constitute grounds for rejection.
 
 ---
 
