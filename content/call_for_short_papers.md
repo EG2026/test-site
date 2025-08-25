@@ -18,10 +18,10 @@ Accepted short papers will be published in the Short Papers digital media procee
 All following deadlines are at **23:59 UTC**:
 
 ``` 
-[Fri] Jan. 16, 2026: Abstract and submission form deadline
-[Fri] Mar. 13, 2026: Full paper deadline
-[Mon] Apr. 13, 2026: Reviews released
-[Fri] Apr. 24, 2026: Rebuttal due
+[Fri] Jan. 16, 2026: Submission deadline
+[Fri] Mar. 13, 2026: Notification to Authors
+[Mon] Apr. 13, 2026: Camera-ready version due
+[Fri] Apr. 24, 2026: Fast-Forward video due
 [Mon] May   4, 2026: Conference begins!
 ```
 
