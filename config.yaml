@@ -60,12 +60,6 @@ menu:
     - name: submit
       weight: 10
 
-    # - identifier: important_dates
-    #   parent: submit
-    #   name: important_dates
-    #   url: /submit/#important_dates
-    #   weight: 1
-
     - identifier: call_for_papers
       parent: submit
       name: call_for_papers
@@ -210,25 +204,25 @@ menu:
     - identifier: registration
       parent: attend
       name: registration
-      url: /attend/#registration
+      url: /registration/#registration
       weight: 1
 
     - identifier: presenting
       parent: attend
       name: presenting
-      url: /attend/#presenting
+      url: /presenting/#presenting
       weight: 2
 
     - identifier: code_of_conduct
       parent: attend
       name: code_of_conduct
-      url: /attend/#code_of_conduct
+      url: /code_of_conduct/#code_of_conduct
       weight: 3
 
     - identifier: accommodation
       parent: attend
       name: accommodation
-      url: /attend/#accommodation
+      url: /accommodation/#accommodation
       weight: 4
 Params:
   sponsorContact: "eg2026@cs.rwth-aachen.de"
