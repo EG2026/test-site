@@ -62,7 +62,7 @@ Submissions will be made electronically through the [Eurographics Submission and
 
 ### In-Person Presentation Policy
 
-Please consider our new [in-person presentation policy](https://eg25.cs.ucl.ac.uk/main/presentation-policy.html).
+Please consider our new [in-person presentation policy](https://eg2026.github.io/test-site/presentation_policy/#presentation_policy).
 
 ---
 
