@@ -4,8 +4,6 @@ type:  "page"               # or whatever your theme expects
 layout: "call_for_education_papers"  # this tells Hugo to use layouts/page/call_for_full_papers.html
 ---
 
-(All following links to be updated)
-
 The scope of the track includes topics in education concerned with computer graphics and related areas, relevant teaching/classroom experience, as well as assignments for use in these subject areas. We invite authors to submit papers, panels and outstanding student projects specifically related but not limited to the following topics:
 
 1. · Teaching Computer Graphics courses to diverse audiences and levels.
@@ -17,6 +15,10 @@ The scope of the track includes topics in education concerned with computer grap
 4. · Enabling and exploiting visual tools and techniques to teach in other disciplines.
 
 5. · Promoting undergraduate research in Computer Graphics.
+
+6. · Curriculum design, industry collaborations, and student experience.
+
+7. · Equity, Inclusion & Accessibility
    
 ---
 
@@ -47,14 +49,14 @@ Explain real assignments, providing examples of handouts and starter codes and e
 
 Describe the learning context for the project and show how the student(s) brought creativity to their work. Upon acceptance, authors are expected to demonstrate the project during their presentation.
 
-All papers and supplementary material will be published in the Eurographics Digital Library.
+All papers and supplementary material will be published in the Eurographics Digital Library. Authors of selected high-quality papers might get invited to submit an extended version of their work to a journal (details to be announced).
 
 
 ---
 
 ### Submission Details
 
-Anonymous submissions must be formatted according to the [Eurographics Author’s guidelines](https://srmv2.eg.org/COMFy/Conference/EG_2025EDU/GetConferenceFile?fileID=15915).
+Anonymous submissions must be formatted according to the [Eurographics Author’s guidelines](https://www.eg.org/wp/eurographics-publications/guidelines/).
 
 Submissions will be made electronically through the [Eurographics Submission and Review Management (SRMv2) system](https://srmv2.eg.org/COMFy/Conference/EG_2025EDU) and are subject to a review process.
 
@@ -62,7 +64,13 @@ Submissions will be made electronically through the [Eurographics Submission and
 
 ### In-Person Presentation Policy
 
-Please consider our new [in-person presentation policy](https://eg2026.github.io/test-site/presentation_policy/#presentation_policy).
+Please consider our new [in-person presentation policy](https://eg2026.github.io/presentation_policy/#presentation_policy).
+
+---
+
+### Submission Format
+
+For examples, please view [the accepted papers from last year](https://diglib.eg.org/collections/45c645ae-0913-4d98-842b-8d0cd7eceb62).
 
 ---
 
@@ -74,5 +82,5 @@ For any questions concerning education paper submissions, please do not hesitate
 
 · **Burkhard Wünsche**, University of Auckland
 
-Email: chairs-eg2026edu@eg.org (to be confirmed)
+Email: chairs-eg2026edu@eg.org
 
