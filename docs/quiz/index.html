@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Live-Quiz für die Vorlesung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #1E3A34;
+    --bg-panel: #24443C;
+    --bg-panel-2: #2B4F46;
+    --chalk: #F4F1E8;
+    --chalk-dim: #B9C9C2;
+    --line: #3C5C53;
+    --red: #D2604C;
+    --blue: #4A80B5;
+    --yellow: #D9A63E;
+    --green: #4E9B72;
+    --accent: #D9A63E;
+    --danger: #D2604C;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    margin:0;
+    background: radial-gradient(ellipse at top, #234A42 0%, var(--bg) 60%);
+    color: var(--chalk);
+    font-family: 'Inter', sans-serif;
+    min-height:100vh;
+  }
+  h1,h2,h3, .display{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    letter-spacing:0.2px;
+  }
+  #app{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  .wrap{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 20px 60px;
+    width:100%;
+  }
+  a, .link-btn{ color: var(--accent); cursor:pointer; }
+
+  /* --- Landing --- */
+  .landing{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 24px;
+  }
+  .landing-inner{ max-width: 720px; text-align:center; }
+  .landing h1{ font-size: clamp(28px, 5vw, 44px); margin-bottom:10px; }
+  .landing p.sub{ color:var(--chalk-dim); margin-bottom:36px; font-size:16px; }
+  .role-row{ display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+  .role-card{
+    width:260px;
+    border: 1.5px dashed var(--line);
+    border-radius:6px;
+    padding:28px 20px;
+    background: var(--bg-panel);
+    cursor:pointer;
+    transition: border-color .15s ease, transform .15s ease;
+    text-align:left;
+  }
+  .role-card:hover{ border-color: var(--accent); transform: translateY(-2px); }
+  .role-card .kicker{ font-size:13px; color:var(--chalk-dim); margin-bottom:6px; }
+  .role-card h3{ font-size:22px; margin:0 0 8px; }
+  .role-card p{ font-size:14px; color:var(--chalk-dim); margin:0; line-height:1.5; }
+
+  /* --- Shared layout bits --- */
+  .top-nav{
+    display:flex; justify-content:space-between; align-items:center;
+    padding: 18px 24px; border-bottom:1px solid var(--line);
+  }
+  .top-nav .brand{ font-family:'Fraunces', serif; font-size:18px; }
+  .panel{
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius:6px;
+    padding:22px;
+  }
+  .grid-2{ display:grid; grid-template-columns: 1.3fr 1fr; gap:20px; align-items:start; }
+  @media (max-width: 820px){ .grid-2{ grid-template-columns: 1fr; } }
+
+  label{ display:block; font-size:13px; color:var(--chalk-dim); margin: 14px 0 6px; }
+  textarea, input[type=text]{
+    width:100%;
+    background: var(--bg);
+    border:1px solid var(--line);
+    color: var(--chalk);
+    border-radius:4px;
+    padding:10px 12px;
+    font-family:'Inter', sans-serif;
+    font-size:15px;
+  }
+  textarea{ min-height:64px; resize:vertical; }
+  .opt-row{ display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+  .opt-row input[type=text]{ flex:1; }
+  .opt-dot{ width:14px; height:14px; border-radius:50%; flex-shrink:0; }
+  .opt-row.o0 .opt-dot{ background:var(--red); }
+  .opt-row.o1 .opt-dot{ background:var(--blue); }
+  .opt-row.o2 .opt-dot{ background:var(--yellow); }
+  .opt-row.o3 .opt-dot{ background:var(--green); }
+  .radio-correct{ width:18px; height:18px; accent-color: var(--accent); cursor:pointer; }
+
+  .btn{
+    display:inline-block;
+    background: var(--accent);
+    color:#1E3A34;
+    border:none;
+    padding: 12px 20px;
+    border-radius:4px;
+    font-family:'Inter', sans-serif;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+  }
+  .btn:disabled{ opacity:.4; cursor:not-allowed; }
+  .btn.secondary{ background:transparent; border:1px solid var(--line); color:var(--chalk); }
+  .btn.danger{ background: var(--red); color:#fff; }
+  .btn-row{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; }
+
+  .qr-box{ text-align:center; }
+  .qr-box img{ background:#fff; padding:10px; border-radius:6px; width:180px; height:180px; }
+  .qr-link{
+    margin-top:10px; font-size:12px; color:var(--chalk-dim);
+    word-break:break-all; font-family: monospace;
+  }
+  .pill{
+    display:inline-block; padding:4px 10px; border-radius:20px;
+    font-size:12px; font-weight:600; border:1px solid var(--line);
+  }
+  .pill.open{ background: rgba(78,155,114,.2); border-color:var(--green); color:#a7e0bd; }
+  .pill.closed{ background: rgba(210,96,76,.15); border-color:var(--red); color:#f0b3a5; }
+  .pill.idle{ background: rgba(185,201,194,.1); color:var(--chalk-dim); }
+
+  .live-count{ font-size:44px; font-family:'Fraunces', serif; margin: 6px 0 0; }
+
+  .chart{ margin-top:22px; }
+  .chart-row{ display:flex; align-items:center; gap:12px; margin-bottom:14px; }
+  .chart-label{ width:150px; font-size:14px; flex-shrink:0; }
+  .chart-track{ flex:1; background:var(--bg); border-radius:4px; overflow:hidden; height:26px; border:1px solid var(--line); }
+  .chart-bar{ height:100%; border-radius:4px 0 0 4px; transition: width .5s ease; }
+  .chart-count{ width:70px; text-align:right; font-size:14px; flex-shrink:0; }
+  .correct-tag{ color:var(--green); font-weight:600; font-size:12px; margin-left:6px; }
+
+  /* --- Student view --- */
+  .student-wrap{
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding: 20px; text-align:center;
+  }
+  .waiting .display{ font-size: clamp(22px, 6vw, 30px); margin-bottom:10px; }
+  .waiting p{ color:var(--chalk-dim); }
+  .dot-pulse{ display:inline-block; width:10px; height:10px; border-radius:50%; background:var(--accent); margin-top:18px; animation: pulse 1.2s infinite ease-in-out; }
+  @keyframes pulse{ 0%,100%{ opacity:.3; transform:scale(.8);} 50%{ opacity:1; transform:scale(1.15);} }
+
+  .question-card{ max-width: 480px; width:100%; }
+  .question-card .qtext{ font-size: clamp(20px, 5vw, 26px); margin-bottom:22px; line-height:1.35; }
+  .options-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+  @media (max-width:420px){ .options-grid{ grid-template-columns: 1fr; } }
+  .opt-btn{
+    border:none; border-radius:6px; padding: 26px 14px; color:#fff;
+    font-family:'Inter', sans-serif; font-weight:600; font-size:16px;
+    cursor:pointer; min-height:96px; display:flex; align-items:center; justify-content:center;
+    line-height:1.3; transition: transform .1s ease, opacity .2s ease;
+  }
+  .opt-btn:active{ transform: scale(.97); }
+  .opt-btn.o0{ background:var(--red); }
+  .opt-btn.o1{ background:var(--blue); }
+  .opt-btn.o2{ background:var(--yellow); color:#2a2110; }
+  .opt-btn.o3{ background:var(--green); }
+  .opt-btn:disabled{ opacity:.35; cursor:default; }
+  .opt-btn.picked{ outline: 4px solid var(--chalk); opacity:1; }
+
+  .result-flash{
+    position:fixed; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    z-index:50; text-align:center; padding:24px;
+  }
+  .result-flash.blue{ background: #1E56C8; }
+  .result-flash.green{ background: #1E8F5E; }
+  .result-flash h2{ font-size: clamp(30px, 9vw, 52px); color:#fff; margin-bottom:10px; }
+  .result-flash p{ color: rgba(255,255,255,.85); font-size:16px; max-width:320px; }
+
+  .result-card{ max-width: 420px; }
+  .result-card .verdict{ font-size:22px; margin-bottom:8px; }
+  .result-card .verdict.correct{ color: var(--green); }
+  .result-card .verdict.wrong{ color: var(--red); }
+  .result-card .answer-line{ color:var(--chalk-dim); font-size:14px; margin-bottom:22px; }
+
+  .small-note{ font-size:12px; color:var(--chalk-dim); margin-top:24px; line-height:1.6; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+/* ---------------- Storage helpers ---------------- */
+async function storeGet(key, shared){
+  try{ const r = await window.storage.get(key, !!shared); return r ? r.value : null; }
+  catch(e){ return null; }
+}
+async function storeSet(key, value, shared){
+  try{ return await window.storage.set(key, value, !!shared); }
+  catch(e){ console.error('storage.set failed', e); return null; }
+}
+async function storeList(prefix, shared){
+  try{ const r = await window.storage.list(prefix, !!shared); return r ? r.keys : []; }
+  catch(e){ return []; }
+}
+
+/* ---------------- Zugang Dozenten-Ansicht ----------------
+   Beides ist nur Verschleierung, kein echter Schutz: Der Quelltext
+   dieser Seite ist für jeden einsehbar (Rechtsklick -> Seitenquelltext),
+   und dort stehen Hash und Passwort im Klartext. Für einen Studenten,
+   der zufällig #dozent statt #student in die Adresszeile eingibt, reicht
+   es aber locker aus. Ändere beide Werte vor dem Einsatz auf eigene Werte. */
+const DOZENT_HASH = '#dozent-k7q9wnx24pf51zt';
+const DOZENT_PASSCODE = 'hoersaal24';
+
+/* ---------------- Global state ---------------- */
+const studentId = 'stu_' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+let pollTimer = null;
+let dozentUnlocked = false;
+
+let draft = { question:'', options:['','','',''], correctIndex:0 };
+let currentQuiz = null;      // mirrors "quiz:current"
+let liveCount = 0;
+
+let studentAnsweredQuizId = null;
+let studentSelected = null;
+
+const OPTION_COLORS = ['red','blue','yellow','green'];
+
+/* ---------------- Router ---------------- */
+function route(){
+  stopPolling();
+  const hash = location.hash;
+  if(hash === DOZENT_HASH){ startDozent(); }
+  else if(hash === '#student'){ startStudent(); }
+  else { renderLanding(); }
+}
+window.addEventListener('hashchange', route);
+window.addEventListener('DOMContentLoaded', route);
+
+function stopPolling(){
+  if(pollTimer){ clearInterval(pollTimer); pollTimer = null; }
+}
+
+function studentUrl(){
+  const base = location.href.split('#')[0];
+  return base + '#student';
+}
+
+/* ---------------- Landing ---------------- */
+function renderLanding(){
+  document.getElementById('app').innerHTML = `
+    <div class="landing">
+      <div class="landing-inner">
+        <h1>Live-Quiz für die Vorlesung</h1>
+        <p class="sub">Eine Frage, vier Antworten, ein Klick. Fragen live an alle stellen und sofort sehen, wer richtig lag.</p>
+        <div class="role-row">
+          <div class="role-card" onclick="location.hash=DOZENT_HASH">
+            <div class="kicker">Für den Laptop im Hörsaal</div>
+            <h3>Ich bin Dozent:in</h3>
+            <p>Frage vorbereiten, Quiz öffnen und schließen, Ergebnisse als Balkendiagramm ansehen.</p>
+          </div>
+          <div class="role-card" onclick="location.hash='#student'">
+            <div class="kicker">Für das Smartphone im Hörsaal</div>
+            <h3>Ich bin Studierende:r</h3>
+            <p>Ohne Anmeldung mitmachen: Frage beantworten und direktes Feedback erhalten.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/* =========================================================
+   DOZENT
+   ========================================================= */
+async function startDozent(){
+  if(!dozentUnlocked){
+    renderDozentGate();
+    return;
+  }
+  const savedDraft = await storeGet('quiz-draft', false);
+  if(savedDraft){
+    try{ draft = JSON.parse(savedDraft); }catch(e){}
+  }
+  const cur = await storeGet('quiz:current', true);
+  currentQuiz = cur ? JSON.parse(cur) : null;
+
+  renderDozent();
+
+  if(currentQuiz && currentQuiz.status === 'open'){
+    startLiveCountPolling();
+  }
+}
+
+function renderDozentGate(){
+  document.getElementById('app').innerHTML = `
+    <div class="landing">
+      <div class="panel" style="max-width:340px; width:100%;">
+        <h3 style="margin-top:0;">Dozenten-Zugang</h3>
+        <label>Passwort</label>
+        <input type="text" id="passcode-input" placeholder="Passwort eingeben" onkeydown="if(event.key==='Enter') checkPasscode()">
+        <div class="btn-row">
+          <button class="btn" onclick="checkPasscode()">Bestätigen</button>
+        </div>
+        <p class="small-note" id="passcode-error"></p>
+      </div>
+    </div>
+  `;
+  document.getElementById('passcode-input').focus();
+}
+
+function checkPasscode(){
+  const val = document.getElementById('passcode-input').value;
+  if(val === DOZENT_PASSCODE){
+    dozentUnlocked = true;
+    startDozent();
+  } else {
+    document.getElementById('passcode-error').textContent = 'Falsches Passwort.';
+  }
+}
+
+let draftSaveTimer = null;
+function scheduleDraftSave(){
+  clearTimeout(draftSaveTimer);
+  draftSaveTimer = setTimeout(()=>{ storeSet('quiz-draft', JSON.stringify(draft), false); }, 500);
+}
+
+function updateDraftQuestion(v){ draft.question = v; scheduleDraftSave(); }
+function updateDraftOption(i, v){ draft.options[i] = v; scheduleDraftSave(); }
+function updateDraftCorrect(i){ draft.correctIndex = i; scheduleDraftSave(); renderDozent(); }
+
+function draftIsValid(){
+  return draft.question.trim().length > 0 && draft.options.every(o => o.trim().length > 0);
+}
+
+async function launchQuiz(){
+  if(!draftIsValid()) return;
+  const quizId = 'q_' + Date.now().toString(36) + Math.random().toString(36).slice(2,6);
+  currentQuiz = {
+    quizId,
+    status: 'open',
+    question: draft.question.trim(),
+    options: draft.options.map(o => o.trim()),
+    correctIndex: draft.correctIndex,
+    openedAt: Date.now(),
+    results: null
+  };
+  await storeSet('quiz:current', JSON.stringify(currentQuiz), true);
+  liveCount = 0;
+  renderDozent();
+  startLiveCountPolling();
+}
+
+function startLiveCountPolling(){
+  stopPolling();
+  refreshLiveCount();
+  pollTimer = setInterval(refreshLiveCount, 1500);
+}
+
+async function refreshLiveCount(){
+  if(!currentQuiz) return;
+  const keys = await storeList('quiz:answer:' + currentQuiz.quizId + ':', true);
+  liveCount = keys.length;
+  const el = document.getElementById('live-count-val');
+  if(el){ el.textContent = liveCount; }
+}
+
+async function closeQuiz(){
+  stopPolling();
+  const prefix = 'quiz:answer:' + currentQuiz.quizId + ':';
+  const keys = await storeList(prefix, true);
+  const answers = [];
+  for(const k of keys){
+    const raw = await storeGet(k, true);
+    if(!raw) continue;
+    try{
+      const parsed = JSON.parse(raw);
+      const sid = k.slice(prefix.length);
+      answers.push({ studentId: sid, optionIndex: parsed.optionIndex, ts: parsed.ts });
+    }catch(e){}
+  }
+  const counts = [0,0,0,0];
+  answers.forEach(a => { if(a.optionIndex >=0 && a.optionIndex < 4) counts[a.optionIndex]++; });
+
+  const correctAnswers = answers
+    .filter(a => a.optionIndex === currentQuiz.correctIndex)
+    .sort((a,b) => a.ts - b.ts);
+
+  const firstResponderId = correctAnswers.length ? correctAnswers[0].studentId : null;
+  const luckyStrikeId = correctAnswers.length
+    ? correctAnswers[Math.floor(Math.random() * correctAnswers.length)].studentId
+    : null;
+
+  currentQuiz = {
+    ...currentQuiz,
+    status: 'closed',
+    results: { counts, total: answers.length, firstResponderId, luckyStrikeId }
+  };
+  await storeSet('quiz:current', JSON.stringify(currentQuiz), true);
+  renderDozent();
+}
+
+function newQuestion(){
+  draft = { question:'', options:['','','',''], correctIndex:0 };
+  storeSet('quiz-draft', JSON.stringify(draft), false);
+  renderDozent();
+}
+
+function renderDozent(){
+  const qrSrc = 'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' + encodeURIComponent(studentUrl());
+  const status = currentQuiz ? currentQuiz.status : 'idle';
+
+  const qrBlock = `
+    <div class="panel qr-box">
+      <div class="pill ${status}">${status === 'open' ? 'Quiz läuft' : status === 'closed' ? 'Quiz beendet' : 'Bereit'}</div>
+      <div style="margin-top:14px;">
+        <img src="${qrSrc}" alt="QR-Code zum Mitmachen" onerror="this.style.display='none'">
+      </div>
+      <div class="qr-link">${studentUrl()}</div>
+      <p class="small-note">QR-Code oder Link auf die Leinwand projizieren. Studierende brauchen kein Login.</p>
+    </div>
+  `;
+
+  let mainBlock = '';
+
+  if(status === 'open'){
+    mainBlock = `
+      <div class="panel">
+        <h2 style="margin-top:0;">${escapeHtml(currentQuiz.question)}</h2>
+        <div style="margin:18px 0;">
+          ${currentQuiz.options.map((o,i) => `<div style="margin-bottom:8px;"><span class="opt-dot" style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--${OPTION_COLORS[i]});margin-right:8px;"></span>${escapeHtml(o)}</div>`).join('')}
+        </div>
+        <label>Eingegangene Antworten</label>
+        <div class="live-count" id="live-count-val">${liveCount}</div>
+        <div class="btn-row">
+          <button class="btn danger" onclick="closeQuiz()">Quiz schließen &amp; auswerten</button>
+        </div>
+      </div>
+    `;
+  } else {
+    mainBlock = `
+      <div class="panel">
+        <h2 style="margin-top:0;">Frage vorbereiten</h2>
+        <label>Frage</label>
+        <textarea oninput="updateDraftQuestion(this.value)" placeholder="Wie lautet die Frage?">${escapeHtml(draft.question)}</textarea>
+        <label>Antwortmöglichkeiten (richtige Antwort markieren)</label>
+        ${[0,1,2,3].map(i => `
+          <div class="opt-row o${i}">
+            <span class="opt-dot"></span>
+            <input type="text" value="${escapeHtml(draft.options[i])}" placeholder="Antwort ${i+1}" oninput="updateDraftOption(${i}, this.value)">
+            <input type="radio" name="correct" class="radio-correct" ${draft.correctIndex===i ? 'checked' : ''} onchange="updateDraftCorrect(${i})" title="Als richtige Antwort markieren">
+          </div>
+        `).join('')}
+        <div class="btn-row">
+          <button class="btn" ${draftIsValid() ? '' : 'disabled'} onclick="launchQuiz()">Quiz öffnen</button>
+          ${status === 'closed' ? '<button class="btn secondary" onclick="newQuestion()">Neue Frage</button>' : ''}
+        </div>
+      </div>
+    `;
+
+    if(status === 'closed' && currentQuiz.results){
+      const r = currentQuiz.results;
+      const max = Math.max(1, ...r.counts);
+      mainBlock += `
+        <div class="panel chart">
+          <h2 style="margin-top:0;">Ergebnis: ${escapeHtml(currentQuiz.question)}</h2>
+          <p class="small-note" style="margin-top:0;">${r.total} Antwort${r.total===1?'':'en'} insgesamt</p>
+          ${currentQuiz.options.map((o,i) => `
+            <div class="chart-row">
+              <div class="chart-label">${escapeHtml(o)}${i===currentQuiz.correctIndex ? '<span class="correct-tag">richtig</span>' : ''}</div>
+              <div class="chart-track"><div class="chart-bar" style="width:${(r.counts[i]/max*100)}%; background:var(--${OPTION_COLORS[i]});"></div></div>
+              <div class="chart-count">${r.counts[i]}</div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+  }
+
+  document.getElementById('app').innerHTML = `
+    <div class="top-nav">
+      <div class="brand">Live-Quiz — Dozenten-Ansicht</div>
+      <a onclick="location.hash=''">Zur Startseite</a>
+    </div>
+    <div class="wrap">
+      <div class="grid-2">
+        <div>${mainBlock}</div>
+        <div>${qrBlock}</div>
+      </div>
+    </div>
+  `;
+}
+
+function escapeHtml(s){
+  return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+/* =========================================================
+   STUDENT
+   ========================================================= */
+async function startStudent(){
+  await refreshStudentState();
+  pollTimer = setInterval(refreshStudentState, 1200);
+}
+
+async function refreshStudentState(){
+  const raw = await storeGet('quiz:current', true);
+  currentQuiz = raw ? JSON.parse(raw) : null;
+  renderStudent();
+}
+
+async function submitAnswer(optionIndex){
+  if(!currentQuiz || currentQuiz.status !== 'open') return;
+  if(studentAnsweredQuizId === currentQuiz.quizId) return;
+  studentAnsweredQuizId = currentQuiz.quizId;
+  studentSelected = optionIndex;
+  renderStudent();
+  await storeSet('quiz:answer:' + currentQuiz.quizId + ':' + studentId, JSON.stringify({ optionIndex, ts: Date.now() }), true);
+}
+
+function renderStudent(){
+  const app = document.getElementById('app');
+
+  if(!currentQuiz || currentQuiz.status === 'idle'){
+    app.innerHTML = waitingScreen('Noch keine aktive Frage', 'Sobald der/die Dozent:in ein Quiz öffnet, erscheint die Frage hier automatisch.');
+    return;
+  }
+
+  if(currentQuiz.status === 'open'){
+    const alreadyAnswered = studentAnsweredQuizId === currentQuiz.quizId;
+    app.innerHTML = `
+      <div class="student-wrap">
+        <div class="question-card">
+          <div class="qtext">${escapeHtml(currentQuiz.question)}</div>
+          <div class="options-grid">
+            ${currentQuiz.options.map((o,i) => `
+              <button class="opt-btn o${i} ${studentSelected===i ? 'picked' : ''}"
+                ${alreadyAnswered ? 'disabled' : ''}
+                onclick="submitAnswer(${i})">${escapeHtml(o)}</button>
+            `).join('')}
+          </div>
+          ${alreadyAnswered ? '<p class="small-note">Antwort gesendet. Warte auf die Auswertung …</p><div class="dot-pulse"></div>' : ''}
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  if(currentQuiz.status === 'closed'){
+    const didAnswer = studentAnsweredQuizId === currentQuiz.quizId;
+    if(!didAnswer){
+      app.innerHTML = waitingScreen('Diese Frage ist beendet', 'Du hast bei dieser Frage nicht mitgemacht. Warte auf die nächste Frage.');
+      return;
+    }
+
+    const r = currentQuiz.results || {};
+    if(r.firstResponderId === studentId){
+      app.innerHTML = flashScreen('blue', 'First Responder', 'Du hattest als Erste:r die richtige Antwort.');
+      return;
+    }
+    if(r.luckyStrikeId === studentId){
+      app.innerHTML = flashScreen('green', 'Lucky Strike', 'Zufällig ausgewählt — du hast Glück gehabt!');
+      return;
+    }
+
+    const wasCorrect = studentSelected === currentQuiz.correctIndex;
+    app.innerHTML = `
+      <div class="student-wrap">
+        <div class="panel result-card">
+          <div class="verdict ${wasCorrect ? 'correct' : 'wrong'}">${wasCorrect ? 'Richtig beantwortet' : 'Leider falsch'}</div>
+          <div class="answer-line">Richtige Antwort: ${escapeHtml(currentQuiz.options[currentQuiz.correctIndex])}</div>
+          <p class="small-note">Warte auf die nächste Frage …</p>
+        </div>
+      </div>
+    `;
+    return;
+  }
+}
+
+function waitingScreen(title, sub){
+  return `
+    <div class="student-wrap waiting">
+      <div class="display">${escapeHtml(title)}</div>
+      <p>${escapeHtml(sub)}</p>
+      <div class="dot-pulse"></div>
+    </div>
+  `;
+}
+
+function flashScreen(color, title, sub){
+  return `
+    <div class="result-flash ${color}">
+      <h2>${escapeHtml(title)}</h2>
+      <p>${escapeHtml(sub)}</p>
+    </div>
+  `;
+}
+</script>
+</body>
+</html>
